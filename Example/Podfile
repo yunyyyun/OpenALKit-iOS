@@ -1,0 +1,6 @@
+use_frameworks!
+target 'OpenALKit-iOS_Tests' do
+  pod 'OpenALKit-iOS', :path => '../'
+  
+  
+end
