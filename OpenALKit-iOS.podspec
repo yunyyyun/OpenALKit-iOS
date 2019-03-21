@@ -35,10 +35,11 @@ TODO: Add long description of the pod here.
   # s.resource_bundles = {
   #   'OpenALKit-iOS' => ['OpenALKit-iOS/Assets/*.png']
   # }
-  s.resource_bundles = {
-    'OpenALKit-iOS' => ['OpenALKit-iOS/Assets/*']
-  }
-  # s.resources = ["OpenALKit-iOS/Assets/*", "Assets/*"]
+#  s.resource_bundles = {
+#    'OpenALKit-iOS' => ['OpenALKit-iOS/Assets/*']
+#  }
+  s.resources = ["OpenALKit-iOS/Assets/*"]
+
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
