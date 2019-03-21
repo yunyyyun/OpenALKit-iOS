@@ -1,0 +1,16 @@
+PODS:
+  - OpenALKit-iOS (0.1.0)
+
+DEPENDENCIES:
+  - OpenALKit-iOS (from `../`)
+
+EXTERNAL SOURCES:
+  OpenALKit-iOS:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  OpenALKit-iOS: d7caa547a2132fb9ae2b409da271451a94176284
+
+PODFILE CHECKSUM: 89cbc7b2ff023af7c3d6bb66c7847320bb7d9227
+
+COCOAPODS: 1.6.0.rc.1

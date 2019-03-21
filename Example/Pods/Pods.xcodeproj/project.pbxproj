@@ -1,0 +1,609 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		275ECFAD85F9E87578ADB8485475DFBB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
+		354FF5955710DCEAB869DD11F6FEC110 /* Pods-OpenALKit-iOS_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 33D747D79DCB02F971D306ADA98F6D39 /* Pods-OpenALKit-iOS_Tests-dummy.m */; };
+		393C4AAA22F16FD00B987AC4F78F18E4 /* OpenALSupport.c in Sources */ = {isa = PBXBuildFile; fileRef = 940A347E59600E596E22E91CD525AC7A /* OpenALSupport.c */; };
+		416A8BE324FC03E2FAB39F4792287644 /* OpenALKit-iOS-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 81F79FF994B410F0716E35DF27D087E6 /* OpenALKit-iOS-dummy.m */; };
+		46728B4C71C19E360CC590F74C536936 /* SoundBankPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 49EE4B50B127D7DA10A88910DA59648D /* SoundBankPlayer.m */; };
+		7620A0AB86828167721EAAC78222453D /* OpenALSupport.h in Headers */ = {isa = PBXBuildFile; fileRef = 8206B926707137762099540D4A9F1117 /* OpenALSupport.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		97DD74DCBAD03D90167D0D47FF9C8B88 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
+		A0AE1799D1AF550BD41F1BACECC1686A /* OpenALKit-iOS-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 824FC7E30C0981568B6A50EF6317F877 /* OpenALKit-iOS-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D2EE5BF02AEE4E62E847F522003BBA72 /* SoundBankPlayer.h in Headers */ = {isa = PBXBuildFile; fileRef = B7B30054270B03922AC46F8B16B7172E /* SoundBankPlayer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F0F4AFEC9189837B16D8F647FC2D3643 /* Pods-OpenALKit-iOS_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8000F98FF4B9BCC84B7B07DEC8760D85 /* Pods-OpenALKit-iOS_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AE9186AFA314D817F97B4E653052BAF2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 550E84ACCD8A473F6F27C69847063BE2;
+			remoteInfo = "OpenALKit-iOS";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0BDC2B316062C8C2FB649E190C742910 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		0F7E648678936B4BFD79D9080B539B82 /* OpenALKit-iOS.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "OpenALKit-iOS.xcconfig"; sourceTree = "<group>"; };
+		1924AB5D87EA2C20677CB082BC0C31BC /* OpenALKit_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = OpenALKit_iOS.framework; path = "OpenALKit-iOS.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DDB39F6994157EC57A6DB646831E15C /* Pods-OpenALKit-iOS_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-OpenALKit-iOS_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		2E7B77AEF9677BE2DA9124FF0BAEA28D /* OpenALKit-iOS.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "OpenALKit-iOS.modulemap"; sourceTree = "<group>"; };
+		33D747D79DCB02F971D306ADA98F6D39 /* Pods-OpenALKit-iOS_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-OpenALKit-iOS_Tests-dummy.m"; sourceTree = "<group>"; };
+		49EE4B50B127D7DA10A88910DA59648D /* SoundBankPlayer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SoundBankPlayer.m; path = "OpenALKit-iOS/Classes/SoundBankPlayer.m"; sourceTree = "<group>"; };
+		4C272166AD9B98144E7A04960A7471B5 /* Pods_OpenALKit_iOS_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_OpenALKit_iOS_Tests.framework; path = "Pods-OpenALKit-iOS_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		56E6DDD5F9808BA246261021B5A12D9F /* OpenALKit-iOS.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = "OpenALKit-iOS.podspec"; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		6AF139100CBEC6162CBD63BFB821EBBC /* Pods-OpenALKit-iOS_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OpenALKit-iOS_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		8000F98FF4B9BCC84B7B07DEC8760D85 /* Pods-OpenALKit-iOS_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-OpenALKit-iOS_Tests-umbrella.h"; sourceTree = "<group>"; };
+		81F79FF994B410F0716E35DF27D087E6 /* OpenALKit-iOS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "OpenALKit-iOS-dummy.m"; sourceTree = "<group>"; };
+		8206B926707137762099540D4A9F1117 /* OpenALSupport.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OpenALSupport.h; path = "OpenALKit-iOS/Classes/OpenALSupport.h"; sourceTree = "<group>"; };
+		824FC7E30C0981568B6A50EF6317F877 /* OpenALKit-iOS-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "OpenALKit-iOS-umbrella.h"; sourceTree = "<group>"; };
+		940A347E59600E596E22E91CD525AC7A /* OpenALSupport.c */ = {isa = PBXFileReference; includeInIndex = 1; name = OpenALSupport.c; path = "OpenALKit-iOS/Classes/OpenALSupport.c"; sourceTree = "<group>"; };
+		953244A6B782EABDB67BC4B943FB723C /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A7B0CA13378FB99403F1DAB96CF4D146 /* OpenALKit-iOS-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "OpenALKit-iOS-Info.plist"; sourceTree = "<group>"; };
+		B49600F8326439EFA3F78B64E2CB7A36 /* Pods-OpenALKit-iOS_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OpenALKit-iOS_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		B7B30054270B03922AC46F8B16B7172E /* SoundBankPlayer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SoundBankPlayer.h; path = "OpenALKit-iOS/Classes/SoundBankPlayer.h"; sourceTree = "<group>"; };
+		BA4F9EB8A9664D59BC3A04E855DC8557 /* Pods-OpenALKit-iOS_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-OpenALKit-iOS_Tests.modulemap"; sourceTree = "<group>"; };
+		C8681A96BCB8EDD8468B61D4C4157895 /* OpenALKit-iOS-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "OpenALKit-iOS-prefix.pch"; sourceTree = "<group>"; };
+		CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		E704D7B800A1506B40F179C4D6B06824 /* Pods-OpenALKit-iOS_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-OpenALKit-iOS_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		EBC7C85C2098B25F4085100B90829706 /* Pods-OpenALKit-iOS_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-OpenALKit-iOS_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		F2E4C2DFAF35ABA8AC9D89CC80A9C3C0 /* Pods-OpenALKit-iOS_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-OpenALKit-iOS_Tests-Info.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		44A3EE1313358D8AF1D0DCFB4F10DD8B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				97DD74DCBAD03D90167D0D47FF9C8B88 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4A4916E864C32A7E5031D0F08A8AF800 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				275ECFAD85F9E87578ADB8485475DFBB /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2ABDD9BBA74941FD6A2461043961FB1A /* Pods-OpenALKit-iOS_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				BA4F9EB8A9664D59BC3A04E855DC8557 /* Pods-OpenALKit-iOS_Tests.modulemap */,
+				EBC7C85C2098B25F4085100B90829706 /* Pods-OpenALKit-iOS_Tests-acknowledgements.markdown */,
+				E704D7B800A1506B40F179C4D6B06824 /* Pods-OpenALKit-iOS_Tests-acknowledgements.plist */,
+				33D747D79DCB02F971D306ADA98F6D39 /* Pods-OpenALKit-iOS_Tests-dummy.m */,
+				1DDB39F6994157EC57A6DB646831E15C /* Pods-OpenALKit-iOS_Tests-frameworks.sh */,
+				F2E4C2DFAF35ABA8AC9D89CC80A9C3C0 /* Pods-OpenALKit-iOS_Tests-Info.plist */,
+				8000F98FF4B9BCC84B7B07DEC8760D85 /* Pods-OpenALKit-iOS_Tests-umbrella.h */,
+				6AF139100CBEC6162CBD63BFB821EBBC /* Pods-OpenALKit-iOS_Tests.debug.xcconfig */,
+				B49600F8326439EFA3F78B64E2CB7A36 /* Pods-OpenALKit-iOS_Tests.release.xcconfig */,
+			);
+			name = "Pods-OpenALKit-iOS_Tests";
+			path = "Target Support Files/Pods-OpenALKit-iOS_Tests";
+			sourceTree = "<group>";
+		};
+		59BF58952DF744CD8D606D2FF220024B /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				0BDC2B316062C8C2FB649E190C742910 /* LICENSE */,
+				56E6DDD5F9808BA246261021B5A12D9F /* OpenALKit-iOS.podspec */,
+				953244A6B782EABDB67BC4B943FB723C /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		7AD6A42F2BD904CE33E493464863C8B8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1924AB5D87EA2C20677CB082BC0C31BC /* OpenALKit_iOS.framework */,
+				4C272166AD9B98144E7A04960A7471B5 /* Pods_OpenALKit_iOS_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7F0EE947E86AA4C47E6EC0CA6C83E801 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8E7033DCC00BB7638F1C15EDF9360A02 /* OpenALKit-iOS */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		8E7033DCC00BB7638F1C15EDF9360A02 /* OpenALKit-iOS */ = {
+			isa = PBXGroup;
+			children = (
+				940A347E59600E596E22E91CD525AC7A /* OpenALSupport.c */,
+				8206B926707137762099540D4A9F1117 /* OpenALSupport.h */,
+				B7B30054270B03922AC46F8B16B7172E /* SoundBankPlayer.h */,
+				49EE4B50B127D7DA10A88910DA59648D /* SoundBankPlayer.m */,
+				59BF58952DF744CD8D606D2FF220024B /* Pod */,
+				D6AC9C6E955049276EE2807BE88204F2 /* Support Files */,
+			);
+			name = "OpenALKit-iOS";
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		9B055D0CFEA43187E72B03DED11F5662 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				7F0EE947E86AA4C47E6EC0CA6C83E801 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				7AD6A42F2BD904CE33E493464863C8B8 /* Products */,
+				EE627D0088913437C1454DE659DD689B /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9B055D0CFEA43187E72B03DED11F5662 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D6AC9C6E955049276EE2807BE88204F2 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				2E7B77AEF9677BE2DA9124FF0BAEA28D /* OpenALKit-iOS.modulemap */,
+				0F7E648678936B4BFD79D9080B539B82 /* OpenALKit-iOS.xcconfig */,
+				81F79FF994B410F0716E35DF27D087E6 /* OpenALKit-iOS-dummy.m */,
+				A7B0CA13378FB99403F1DAB96CF4D146 /* OpenALKit-iOS-Info.plist */,
+				C8681A96BCB8EDD8468B61D4C4157895 /* OpenALKit-iOS-prefix.pch */,
+				824FC7E30C0981568B6A50EF6317F877 /* OpenALKit-iOS-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/OpenALKit-iOS";
+			sourceTree = "<group>";
+		};
+		EE627D0088913437C1454DE659DD689B /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				2ABDD9BBA74941FD6A2461043961FB1A /* Pods-OpenALKit-iOS_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		C1439495C6CBB2758F785D1E4BB9B07E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0AE1799D1AF550BD41F1BACECC1686A /* OpenALKit-iOS-umbrella.h in Headers */,
+				7620A0AB86828167721EAAC78222453D /* OpenALSupport.h in Headers */,
+				D2EE5BF02AEE4E62E847F522003BBA72 /* SoundBankPlayer.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC2C1EF5EF095326BB023149CDC5CE2E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0F4AFEC9189837B16D8F647FC2D3643 /* Pods-OpenALKit-iOS_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		550E84ACCD8A473F6F27C69847063BE2 /* OpenALKit-iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A020CD96D39969ED870F0F2064C98144 /* Build configuration list for PBXNativeTarget "OpenALKit-iOS" */;
+			buildPhases = (
+				C1439495C6CBB2758F785D1E4BB9B07E /* Headers */,
+				81AEE08CF19561ECF2624A6285C95243 /* Sources */,
+				4A4916E864C32A7E5031D0F08A8AF800 /* Frameworks */,
+				E74A607E4531530280DA5352935B9271 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "OpenALKit-iOS";
+			productName = "OpenALKit-iOS";
+			productReference = 1924AB5D87EA2C20677CB082BC0C31BC /* OpenALKit_iOS.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		962C4198C4547EDB420955FDE7A8432F /* Pods-OpenALKit-iOS_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D09814AE761F74828DC1FB07D6E531D1 /* Build configuration list for PBXNativeTarget "Pods-OpenALKit-iOS_Tests" */;
+			buildPhases = (
+				DC2C1EF5EF095326BB023149CDC5CE2E /* Headers */,
+				0138562E841DEB6F44C5210B7A07D8B0 /* Sources */,
+				44A3EE1313358D8AF1D0DCFB4F10DD8B /* Frameworks */,
+				080EC32DCDC5B25D230BD93B8524FF58 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				941C856B18CC1AB267449C09B8226560 /* PBXTargetDependency */,
+			);
+			name = "Pods-OpenALKit-iOS_Tests";
+			productName = "Pods-OpenALKit-iOS_Tests";
+			productReference = 4C272166AD9B98144E7A04960A7471B5 /* Pods_OpenALKit_iOS_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 7AD6A42F2BD904CE33E493464863C8B8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				550E84ACCD8A473F6F27C69847063BE2 /* OpenALKit-iOS */,
+				962C4198C4547EDB420955FDE7A8432F /* Pods-OpenALKit-iOS_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		080EC32DCDC5B25D230BD93B8524FF58 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E74A607E4531530280DA5352935B9271 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0138562E841DEB6F44C5210B7A07D8B0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				354FF5955710DCEAB869DD11F6FEC110 /* Pods-OpenALKit-iOS_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81AEE08CF19561ECF2624A6285C95243 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				416A8BE324FC03E2FAB39F4792287644 /* OpenALKit-iOS-dummy.m in Sources */,
+				393C4AAA22F16FD00B987AC4F78F18E4 /* OpenALSupport.c in Sources */,
+				46728B4C71C19E360CC590F74C536936 /* SoundBankPlayer.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		941C856B18CC1AB267449C09B8226560 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "OpenALKit-iOS";
+			target = 550E84ACCD8A473F6F27C69847063BE2 /* OpenALKit-iOS */;
+			targetProxy = AE9186AFA314D817F97B4E653052BAF2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0713E8319A695301B27F7AA4C18EF9EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6AF139100CBEC6162CBD63BFB821EBBC /* Pods-OpenALKit-iOS_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-OpenALKit-iOS_Tests/Pods-OpenALKit-iOS_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-OpenALKit-iOS_Tests/Pods-OpenALKit-iOS_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		3D543890313310952F7F612BB544E09B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0F7E648678936B4BFD79D9080B539B82 /* OpenALKit-iOS.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/OpenALKit-iOS/OpenALKit-iOS-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/OpenALKit-iOS/OpenALKit-iOS-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/OpenALKit-iOS/OpenALKit-iOS.modulemap";
+				PRODUCT_MODULE_NAME = OpenALKit_iOS;
+				PRODUCT_NAME = OpenALKit_iOS;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		44FC63B45C4C470B7F080B1DEC992BBF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0F7E648678936B4BFD79D9080B539B82 /* OpenALKit-iOS.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/OpenALKit-iOS/OpenALKit-iOS-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/OpenALKit-iOS/OpenALKit-iOS-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/OpenALKit-iOS/OpenALKit-iOS.modulemap";
+				PRODUCT_MODULE_NAME = OpenALKit_iOS;
+				PRODUCT_NAME = OpenALKit_iOS;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		92A0E163BEF6F546A3DAA8537929C774 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B49600F8326439EFA3F78B64E2CB7A36 /* Pods-OpenALKit-iOS_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-OpenALKit-iOS_Tests/Pods-OpenALKit-iOS_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-OpenALKit-iOS_Tests/Pods-OpenALKit-iOS_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		AB4D69770D8ACE3A05E80BB3502666F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		F232B5ECA11A71BFA199A229B323F454 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB4D69770D8ACE3A05E80BB3502666F6 /* Debug */,
+				F232B5ECA11A71BFA199A229B323F454 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A020CD96D39969ED870F0F2064C98144 /* Build configuration list for PBXNativeTarget "OpenALKit-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D543890313310952F7F612BB544E09B /* Debug */,
+				44FC63B45C4C470B7F080B1DEC992BBF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D09814AE761F74828DC1FB07D6E531D1 /* Build configuration list for PBXNativeTarget "Pods-OpenALKit-iOS_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0713E8319A695301B27F7AA4C18EF9EF /* Debug */,
+				92A0E163BEF6F546A3DAA8537929C774 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
