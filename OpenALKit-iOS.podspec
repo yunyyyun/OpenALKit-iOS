@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'OpenALKit-iOS'
-  s.version          = '0.1.4'
+  s.version          = '0.1.5'
   s.summary          = 'OpenALKit for iOS.'
 
 # This description is used to generate tags and improve search results.
@@ -35,7 +35,8 @@ TODO: Add long description of the pod here.
 #  s.resource_bundles = {
 #    'OpenALKit-iOS' => ['OpenALKit-iOS/Assets/*']
 #  }
-  s.resources = ["OpenALKit-iOS/Assets/*"]
+  s.resource = "Resources/xxx.bundle"
+  #s.resources = ["OpenALKit-iOS/Assets/*"]
 
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
