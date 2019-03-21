@@ -44,6 +44,8 @@ Note;
 
 @interface SoundBankPlayer ()
 
+@property (nonatomic, strong) NSThread *thread;
+
 @end
 
 @implementation SoundBankPlayer
@@ -56,15 +58,16 @@ Note;
 	Source _sources[NUM_SOURCES];  // list of active sources
 	Note _notes[NUM_NOTES];        // the notes indexed by MIDI note number
     
-    int queue[QUEUE_LEN];
-    int queueLen;
+    int _queue[QUEUE_LEN];          // 待播放的音的集合
+    int _queueLen;
+    BOOL _needPlay;
 
 	ALCcontext *_context;          // OpenAL context
 	ALCdevice *_device;            // OpenAL device
 
 	NSString *_soundBankName;      // name of the current sound bank
     
-    BOOL        isVailed;
+    BOOL        _isVailed;
 }
 
 static SoundBankPlayer *_player;
@@ -74,9 +77,30 @@ static SoundBankPlayer *_player;
     dispatch_once(&onceToken, ^{
         if (_player == nil) {
             _player = [[SoundBankPlayer alloc] init];
+            _player.thread = [[NSThread alloc]initWithTarget:self selector:@selector(run) object:nil];
+            [_player.thread start];
+            [_player runLoop];
         }
     });
     return _player;
+}
+
++ (void) run{
+    // NSLog(@"----任务1-----");
+    [[NSRunLoop currentRunLoop] addPort:[NSPort port] forMode:NSDefaultRunLoopMode];
+    [[NSRunLoop currentRunLoop] run];
+    NSLog(@"开启 RunLoop 失败");
+}
+
+- (void) runLoop{
+    dispatch_async(dispatch_get_global_queue(0, 0), ^{
+        while (true) {
+            if (_needPlay){
+                [self performSelector:@selector(doPlayNoteQueue) onThread:self.thread withObject:nil waitUntilDone:NO];
+            }
+            // [self doPlayNoteQueue];
+        }
+    });
 }
 
 - (id)init
@@ -92,11 +116,11 @@ static SoundBankPlayer *_player;
         NSString *path = [[NSBundle mainBundle] pathForResource:@"category" ofType:@"plist"];
         self.soundsCategory = [NSArray arrayWithContentsOfFile:path];
         self.categoryIndex = 0;
-        [self setSoundBank];
+        //[self setSoundBank];
         
-        queueLen = 0;
+        _queueLen = 0;
         for (int i=0; i<QUEUE_LEN; ++i){
-            queue[i] = 0;
+            _queue[i] = 0;
         }
 	}
 	return self;
@@ -107,6 +131,7 @@ static SoundBankPlayer *_player;
     [self tearDownAudio];
 }
 
+// 切换音效（电子琴、吉他、古筝等）
 - (void)setSoundBank//:(NSString *)newSoundBankName
 {
     if (self.categoryIndex>self.soundsCategory.count-1){
@@ -334,6 +359,12 @@ static SoundBankPlayer *_player;
 	return oldest;
 }
 
+- (void)setCategoryIndex:(NSInteger)categoryIndex{
+    _categoryIndex = categoryIndex;
+    [self setSoundBank];
+}
+
+// 直接播放单个音
 - (void)noteOn:(int)midiNoteNumber gain:(float)gain
 {
     if (!_initialized) [self setUpOpenAL];
@@ -341,26 +372,39 @@ static SoundBankPlayer *_player;
 	[self playQueuedNotes];
 }
 
+// 将当前音放入播放数组播放，用于同时播放多个音
 - (void)pushNoteToQueueOn:(int)midiNoteNumber{
-    if (queueLen < QUEUE_LEN - 1){
-        queue[queueLen++] = midiNoteNumber;
+    if (_queueLen < QUEUE_LEN - 1){
+        _queue[_queueLen++] = midiNoteNumber;
     }
 }
 
+//// 将一组音放入播放数组播放
+//- (void)pushNotesToQueueOn:(NSArray<NSNumber *> *)midiNoteNumbers{
+//    for (int i=0; i<midiNoteNumbers.count; ++i){
+//        if (_queueLen < QUEUE_LEN - 1){
+//            _queue[_queueLen++] = midiNoteNumbers[i].intValue;
+//        }
+//    }
+//}
+
+// 播放数组里的音
 - (void)doPlayNoteQueue{
-    if (queueLen<=0){
+    // NSLog(@"%@ %@", [NSThread  currentThread], self.thread);
+    if (_queueLen<=0){
         return;
     }
-    float gain = (1+(queueLen-1)*0.2)/queueLen;
-    //NSLog(@"doPlayNoteQueue   %d  %lf", queueLen,gain);
-    for (int i=0; i<queueLen; ++i){
-        [self queueNote:queue[i] gain: gain];
-        //[self noteOn:queue[i] gain: 1.0];
+    float gain = (1+(_queueLen-1)*0.2)/_queueLen;
+    //NSLog(@"doPlayNoteQueue   %d  %lf", _queueLen,gain);
+    for (int i=0; i<_queueLen; ++i){
+        [self queueNote:_queue[i] gain: gain];
     }
     [self playQueuedNotes];
-    queueLen = 0;
+    _queueLen = 0;
+    _needPlay = false;
 }
 
+// 为每个音分配 source
 - (void)queueNote:(int)midiNoteNumber gain:(float)gain
 {
 	if (!_initialized)
@@ -405,7 +449,7 @@ static SoundBankPlayer *_player;
 		}
 	}
 }
-
+// 最终的播放
 - (void)playQueuedNotes
 {
 	ALuint queuedSources[NUM_SOURCES] = { 0 };
