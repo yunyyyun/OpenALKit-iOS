@@ -35,7 +35,7 @@ TODO: Add long description of the pod here.
 #  s.resource_bundles = {
 #    'OpenALKit-iOS' => ['OpenALKit-iOS/Assets/*']
 #  }
-  s.resource = "Resources/xxx.bundle"
+  s.resource = "OpenALKit-iOS/xxx.bundle"
   #s.resources = ["OpenALKit-iOS/Assets/*"]
 
 
