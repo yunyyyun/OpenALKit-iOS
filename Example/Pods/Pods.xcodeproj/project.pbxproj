@@ -7,16 +7,166 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		275ECFAD85F9E87578ADB8485475DFBB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
+		01B8F1C1778393860D27A798FFA899F5 /* d3.mp3 in Sources */ = {isa = PBXBuildFile; fileRef = 090165EE41FC11FAF9D40D3B165432A5 /* d3.mp3 */; };
+		088A3121769962EB62A783E06419A963 /* f6m.mp3 in Sources */ = {isa = PBXBuildFile; fileRef = 10BEEB56D8FB49B85929FC6DF078D4F3 /* f6m.mp3 */; };
+		09632C590B9EFA6A16CDBF1EB6C2EFF0 /* C3_z.mp3 in Sources */ = {isa = PBXBuildFile; fileRef = 705470C6A5AC911249288BB9995DEDDB /* C3_z.mp3 */; };
+		0C53A76FD635179695FBA15C747878DB /* 0D.wav in Sources */ = {isa = PBXBuildFile; fileRef = 2CAD65EC20F63B77CA931D98F65125E6 /* 0D.wav */; };
+		10D5A9F69D9B3DAAFF10135A20DB854F /* 1B.wav in Sources */ = {isa = PBXBuildFile; fileRef = 2CD04F741AF3BD868C726B0C741FF170 /* 1B.wav */; };
+		11427106304722F5736D987A748B9839 /* guitar071.caf in Sources */ = {isa = PBXBuildFile; fileRef = D741890BEC423D785CAB328B300B37D6 /* guitar071.caf */; };
+		11F502F410C593D82762CB64D3B455DF /* c7.mp3 in Sources */ = {isa = PBXBuildFile; fileRef = 56ADC7232F712D6B9E95DA3C98B2374B /* c7.mp3 */; };
+		13BAFD2DE440B7292FBC66D777EC4886 /* -1B.wav in Sources */ = {isa = PBXBuildFile; fileRef = E86BA5F5C06026408558D137967B8A13 /* -1B.wav */; };
+		14AB4750FAB9E385B8407DB27AF321F2 /* harp065.caf in Sources */ = {isa = PBXBuildFile; fileRef = 0E21A509A34F7E8ED18BE6B48CA36521 /* harp065.caf */; };
+		16A449E3DFE6E13ADC4E421ECCC420BC /* marimba054.caf in Sources */ = {isa = PBXBuildFile; fileRef = DFFDD353A084A95A674D44F290A5F7EA /* marimba054.caf */; };
+		184A20BC4461134CD625EC6606DC6261 /* 2B.wav in Sources */ = {isa = PBXBuildFile; fileRef = 76B971976695BF0181F6CC54C1D02C1F /* 2B.wav */; };
+		1A3694E55AD1C0D196B9091B94773771 /* 3F.wav in Sources */ = {isa = PBXBuildFile; fileRef = 8056CC1201C655E383F7B0EE6558BA8A /* 3F.wav */; };
+		1E04DAAE85099983E2DA3CD3BEF063BE /* harp077.caf in Sources */ = {isa = PBXBuildFile; fileRef = AF314B15D97A959D5196B64DE74CF4F2 /* harp077.caf */; };
+		2514E195ACA7E250B10EE61075F76C06 /* 5A.wav in Sources */ = {isa = PBXBuildFile; fileRef = 4470EFF1129DF7C02A3474D58B45CA64 /* 5A.wav */; };
+		253081B2007EFD4A2ABCF7E1A1C5F122 /* Bass.plist in Sources */ = {isa = PBXBuildFile; fileRef = 4C694D0FCAD18DE2703E0B1494E267B4 /* Bass.plist */; };
+		27E9A8AFFD023A45638B418379F59858 /* 5F.wav in Sources */ = {isa = PBXBuildFile; fileRef = E81516D0F6A1732661678FA504971718 /* 5F.wav */; };
+		28B8347126B0F30DA569EDDF7B5B961A /* 1G.wav in Sources */ = {isa = PBXBuildFile; fileRef = 1C277EDAB1F83E09FC2A91CF04F02CF3 /* 1G.wav */; };
+		2D7E0714595ED830BE8629C0C5256D30 /* f5m.mp3 in Sources */ = {isa = PBXBuildFile; fileRef = 3CE1DB47D274B5315ACD1AC0DE877455 /* f5m.mp3 */; };
+		309040C8833BDB6ADBA559679152A49D /* bass038.caf in Sources */ = {isa = PBXBuildFile; fileRef = 76F25414E837742E14A0C7FD16FF240E /* bass038.caf */; };
+		31CB14D9E3A8CD75959DEB2F3A5D4B44 /* bass067.caf in Sources */ = {isa = PBXBuildFile; fileRef = 9A3F1F4827816C39BC970DD44A040563 /* bass067.caf */; };
 		354FF5955710DCEAB869DD11F6FEC110 /* Pods-OpenALKit-iOS_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 33D747D79DCB02F971D306ADA98F6D39 /* Pods-OpenALKit-iOS_Tests-dummy.m */; };
-		393C4AAA22F16FD00B987AC4F78F18E4 /* OpenALSupport.c in Sources */ = {isa = PBXBuildFile; fileRef = 940A347E59600E596E22E91CD525AC7A /* OpenALSupport.c */; };
-		416A8BE324FC03E2FAB39F4792287644 /* OpenALKit-iOS-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 81F79FF994B410F0716E35DF27D087E6 /* OpenALKit-iOS-dummy.m */; };
-		46728B4C71C19E360CC590F74C536936 /* SoundBankPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 49EE4B50B127D7DA10A88910DA59648D /* SoundBankPlayer.m */; };
-		7620A0AB86828167721EAAC78222453D /* OpenALSupport.h in Headers */ = {isa = PBXBuildFile; fileRef = 8206B926707137762099540D4A9F1117 /* OpenALSupport.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		390AD8674A630B247FA458B674BBD02E /* marimba068.caf in Sources */ = {isa = PBXBuildFile; fileRef = 3182FEC6275480850C26BB5D374850F1 /* marimba068.caf */; };
+		3A08F5EC5459768EA466CB0E65ED66D6 /* E1_z.mp3 in Sources */ = {isa = PBXBuildFile; fileRef = 760C1ADB48524BD290B4ED330A0E718B /* E1_z.mp3 */; };
+		3A4B6075CAA0FFB74BA7C55D0F272277 /* 4C.wav in Sources */ = {isa = PBXBuildFile; fileRef = 93201BAC4AAB993B66DACBC7D7B4A27C /* 4C.wav */; };
+		3ADB74C154C645D238366FD1FBEAC9D3 /* D1_z.mp3 in Sources */ = {isa = PBXBuildFile; fileRef = D425AA26A7FAE3C5AB4C2C0177125A25 /* D1_z.mp3 */; };
+		3FA017883F39972090761B7410B2EAEE /* D3_z.mp3 in Sources */ = {isa = PBXBuildFile; fileRef = 2AEA4A06C7FEC6551D9F9A02D986503B /* D3_z.mp3 */; };
+		410751ABEE71B5818A0CD6711D1A2F4F /* 6C.wav in Sources */ = {isa = PBXBuildFile; fileRef = E9C257B546EAED45F27DED5BA71EAF6D /* 6C.wav */; };
+		452A81A77A7157AA68A526B933934A2A /* guitar049.caf in Sources */ = {isa = PBXBuildFile; fileRef = 561EE148C5FE940ECD3F35646B689A7A /* guitar049.caf */; };
+		45DAC2907DEE0DD5E0EBEF5422EF6BC8 /* harp086.caf in Sources */ = {isa = PBXBuildFile; fileRef = D69AF0B711A25C9C8A6717F0E996DA3C /* harp086.caf */; };
+		48670C6C0F242A090EE310FAA3CB5E30 /* 1C.wav in Sources */ = {isa = PBXBuildFile; fileRef = 2A75922EDD4597B7FC6807F2E718C30D /* 1C.wav */; };
+		49B79E2155F6A7EE5CB5985E88B54B3B /* marimba072.caf in Sources */ = {isa = PBXBuildFile; fileRef = B51F88997813DB3759E57BF650A896E4 /* marimba072.caf */; };
+		4A18A4CEA791CDB28170FAE3A59390BB /* a7m.mp3 in Sources */ = {isa = PBXBuildFile; fileRef = EEC79ECA51531430D3132C803196A96E /* a7m.mp3 */; };
+		51FB7FB0ABE22AD8B2FE917BF8806834 /* harp045.caf in Sources */ = {isa = PBXBuildFile; fileRef = AA461D5EC695AD5536349EB4966A19EC /* harp045.caf */; };
+		5831B554FDB371F1596E3B2848C8F062 /* 4F.wav in Sources */ = {isa = PBXBuildFile; fileRef = EBD4A65008325891C41585D203FAC81E /* 4F.wav */; };
+		5857CCCAA5211D1EE19609CFA0E129FD /* bass062.caf in Sources */ = {isa = PBXBuildFile; fileRef = C6AC00B1B54326DC0006205D1D3E318E /* bass062.caf */; };
+		58D3F2E7DA58D4C6E9B77DAB2B6BB30A /* 6F.wav in Sources */ = {isa = PBXBuildFile; fileRef = CA472CD8B82674E0B9925CC1C1D98396 /* 6F.wav */; };
+		58F35E0C632160EC104DCC48D4D8E14E /* f3m.mp3 in Sources */ = {isa = PBXBuildFile; fileRef = 5095FB34AA9DB06E69BF9F20A152FE06 /* f3m.mp3 */; };
+		5BE60CA01720EAE47EF2BCB8E69BDB6B /* 5C.wav in Sources */ = {isa = PBXBuildFile; fileRef = CE80C5408ABB4449EBE6E4FCC38BB82A /* 5C.wav */; };
+		5E1A4A88889B2859F1FC445B2AE091BC /* category.plist in Sources */ = {isa = PBXBuildFile; fileRef = F619D3332043393F2CA9124EF470339D /* category.plist */; };
+		5EA69D67EAA0D5B559BBE13F5A504F22 /* guitar077.caf in Sources */ = {isa = PBXBuildFile; fileRef = 51F9F5F830782595A9BBABB52BC150F8 /* guitar077.caf */; };
+		5FB1D537D4949291E7B36D94E4516697 /* D2_z.mp3 in Sources */ = {isa = PBXBuildFile; fileRef = A28EFE48331A619100AEA185C5F81462 /* D2_z.mp3 */; };
+		603B45490CEBFA15EB694CBF2F4FC502 /* A3_z.mp3 in Sources */ = {isa = PBXBuildFile; fileRef = 973E35227E2173E4235B9193CE22858F /* A3_z.mp3 */; };
+		62FDD791CD2C35757414C479572FA332 /* harp062.caf in Sources */ = {isa = PBXBuildFile; fileRef = 2D45BC722673D13968A86EDEC2EA7A4F /* harp062.caf */; };
+		6464B58404C4A2D119C3BF7DEE4CCF46 /* -1G.wav in Sources */ = {isa = PBXBuildFile; fileRef = 86D7040D7765EE47D659F5126FCACB00 /* -1G.wav */; };
+		656A36A588967F0337B0BE1998191CD3 /* -1A.wav in Sources */ = {isa = PBXBuildFile; fileRef = 858875521E5D90590D2498D372109BA9 /* -1A.wav */; };
+		6605C61FB1153350AD8917A06AE35685 /* -1F.wav in Sources */ = {isa = PBXBuildFile; fileRef = 462981489A39763FDCEC39E28CDD71E3 /* -1F.wav */; };
+		67BBBE08C9F5466ED8CC2D08888007BB /* guitar059.caf in Sources */ = {isa = PBXBuildFile; fileRef = F6614717FDE7184AA438BEE745CAAAAE /* guitar059.caf */; };
+		6B3FA50AB7F4EFBD0A56BB0BD2D12029 /* harp072.caf in Sources */ = {isa = PBXBuildFile; fileRef = 8EEDFEB2E43EA4165183E6DEA7A256EC /* harp072.caf */; };
+		6DE5297D829420ADEE04D165E9F872E3 /* harp031.caf in Sources */ = {isa = PBXBuildFile; fileRef = AD2757990EDA3D019AEFD360FFCDF51A /* harp031.caf */; };
+		6E3A56095CD546933BF6CD997F43A715 /* 0G.wav in Sources */ = {isa = PBXBuildFile; fileRef = 9E65AF8609EA8B8915934FFB2A7BCC98 /* 0G.wav */; };
+		6EC06092CF1035F970E048994AC47B64 /* guitar068.caf in Sources */ = {isa = PBXBuildFile; fileRef = DA830127189D047674C106A8C53F8DF2 /* guitar068.caf */; };
+		6F0D479C97A916FF180131BABEB2EDF6 /* B5_z.mp3 in Sources */ = {isa = PBXBuildFile; fileRef = D4A327CEAB78F9DBAB204156243EB899 /* B5_z.mp3 */; };
+		6F0F20EC6BA43B0F3B14BDFB278A397E /* d2.mp3 in Sources */ = {isa = PBXBuildFile; fileRef = C493364FCD3F48649D94471526E3321C /* d2.mp3 */; };
+		71BED6CDF24D656FA699BA8A130C1471 /* a4m.mp3 in Sources */ = {isa = PBXBuildFile; fileRef = 60EA13DC0CDBC114BA771EFCF57E6613 /* a4m.mp3 */; };
+		7309B30AE2939A0F52CF73122A5456B7 /* marimba095.caf in Sources */ = {isa = PBXBuildFile; fileRef = ECEFEE3215114E22E04A181B129570BB /* marimba095.caf */; };
+		743393FA80B75B8286BEBE187A73E16E /* d4.mp3 in Sources */ = {isa = PBXBuildFile; fileRef = EB99632EFED22DB47C7A1E5B75B5C56B /* d4.mp3 */; };
+		74728864D308A5414BE2FCBC347D4CAB /* OpenALSupport.h in Headers */ = {isa = PBXBuildFile; fileRef = 808F774218EECAC6D934B0EC4CEA896A /* OpenALSupport.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		749777A7CD51F2C08A71346B2B32B032 /* Guitar.plist in Sources */ = {isa = PBXBuildFile; fileRef = 4C60735171F887AED933A9C9D66993E2 /* Guitar.plist */; };
+		787D528841C2198C06AFD05B635E4BD7 /* 6E.wav in Sources */ = {isa = PBXBuildFile; fileRef = 8DD435FC087C0A72A041B0385A890045 /* 6E.wav */; };
+		78B55E2ABFEDD5DDAF08BC0C4F37B0C0 /* 5D.wav in Sources */ = {isa = PBXBuildFile; fileRef = 80593F0654083CB945B556B819AB8F7C /* 5D.wav */; };
+		794CE1EDC9AD97A69869FB5425C739C6 /* guitar053.caf in Sources */ = {isa = PBXBuildFile; fileRef = A4BA8E601F9577BC422A93908A7731A0 /* guitar053.caf */; };
+		7AE2E8D70059A34FB0655E53E1226AD2 /* f7m.mp3 in Sources */ = {isa = PBXBuildFile; fileRef = B34831071290651FB7E9736B96679885 /* f7m.mp3 */; };
+		7BAC4717473121687FFC85F831DA85DC /* C1_z.mp3 in Sources */ = {isa = PBXBuildFile; fileRef = 6ADDB7B053FA535BD629201DEEA48E64 /* C1_z.mp3 */; };
+		81DE294CB45543D9382AEE28C21EF204 /* 1A.wav in Sources */ = {isa = PBXBuildFile; fileRef = 9927CA9BFFF52D24DE00EF233F2D03E2 /* 1A.wav */; };
+		82DB44229C6908D540F1CBC49BEFC9BA /* guitar040.caf in Sources */ = {isa = PBXBuildFile; fileRef = EE403B3440564D23B666F5AC4BDAB1A0 /* guitar040.caf */; };
+		8383054C307785311990984A4559249F /* B6_z.mp3 in Sources */ = {isa = PBXBuildFile; fileRef = 38FE9770F2DAE7FFC1D91AF1341407FD /* B6_z.mp3 */; };
+		86D297D57322A563814E0B30355CA03F /* Marimba.plist in Sources */ = {isa = PBXBuildFile; fileRef = 90A5D75E5A818064D104FE1129A80183 /* Marimba.plist */; };
+		87F84BE107ECF614FC814663D98DFC9E /* 3B.wav in Sources */ = {isa = PBXBuildFile; fileRef = BFFD1EDDF224E4C1F4FAE3624C617847 /* 3B.wav */; };
+		8A030E4BBB294948E83711E6BCF9CF92 /* harp068.caf in Sources */ = {isa = PBXBuildFile; fileRef = 86FF309FA4CB59814F0CD681F8D68EFE /* harp068.caf */; };
+		8AC79E36555D1690241466E83F232BCA /* 4B.wav in Sources */ = {isa = PBXBuildFile; fileRef = B4165CC8C5FD30111DB4E67F0A724581 /* 4B.wav */; };
+		8ADED2566EA382BB0021CC0F5C6DF16D /* A5_z.mp3 in Sources */ = {isa = PBXBuildFile; fileRef = 8A2B78B6ECE2F5C1DF52C42387B6460B /* A5_z.mp3 */; };
+		8C077061C1AAC2650D6DFA7D7FBA8E9A /* 4E.wav in Sources */ = {isa = PBXBuildFile; fileRef = D7935B90FB0C8E0409842B2368942F2C /* 4E.wav */; };
+		8C2F648F8358D32FBE9596E235ECEC2E /* bass043.caf in Sources */ = {isa = PBXBuildFile; fileRef = CAE274B8B9629A822F56ADBE6C801D9D /* bass043.caf */; };
+		8C3EDE22912D5CD75D79F22577A405AC /* guitar045.caf in Sources */ = {isa = PBXBuildFile; fileRef = 38BA6E8CE74A25285C40F06AF32E4C51 /* guitar045.caf */; };
+		8C8908AA223EC7F20A3004D6B0AFD2BE /* marimba077.caf in Sources */ = {isa = PBXBuildFile; fileRef = 4BC65D6FE1348CD6CB34995AD6616F96 /* marimba077.caf */; };
+		8E613BCFCCAD126DE8D1C04ECD6C4762 /* A2_z.mp3 in Sources */ = {isa = PBXBuildFile; fileRef = 02B0CEE506128BAF538AA90C19FCEA77 /* A2_z.mp3 */; };
+		9104F7BAE4A0E4C4E3082ADE906B6F61 /* 2E.wav in Sources */ = {isa = PBXBuildFile; fileRef = 805B117C4715A86647A771AB92CC371B /* 2E.wav */; };
+		91B2891B44FDBFEAF6480E0206D3FA6E /* 0C.wav in Sources */ = {isa = PBXBuildFile; fileRef = F171D3FC95E70C16B429C325FA0A0960 /* 0C.wav */; };
+		932A50B8420513FD963E42D31F7ABC54 /* marimba062.caf in Sources */ = {isa = PBXBuildFile; fileRef = 9F639F56FE8AA6192030CD7CFC3C0407 /* marimba062.caf */; };
+		93F5463F63B22B0693FC8E864A0E15D5 /* Default.plist in Sources */ = {isa = PBXBuildFile; fileRef = A7DD32A7CB203AEDD07E41F07D260CB8 /* Default.plist */; };
+		95C72E5C8C254400D761EEA4C842A6F4 /* 3G.wav in Sources */ = {isa = PBXBuildFile; fileRef = BC1D79B706FE167DAB7E3CAEFEE18A0D /* 3G.wav */; };
+		9626E2102BFD2403276F4C9B61CA6378 /* OpenALKit-iOS-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A727123227BA15177B8936A94D92DD39 /* OpenALKit-iOS-dummy.m */; };
 		97DD74DCBAD03D90167D0D47FF9C8B88 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
-		A0AE1799D1AF550BD41F1BACECC1686A /* OpenALKit-iOS-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 824FC7E30C0981568B6A50EF6317F877 /* OpenALKit-iOS-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D2EE5BF02AEE4E62E847F522003BBA72 /* SoundBankPlayer.h in Headers */ = {isa = PBXBuildFile; fileRef = B7B30054270B03922AC46F8B16B7172E /* SoundBankPlayer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		97F518F7012721D5E946DE510F7B2622 /* 5B.wav in Sources */ = {isa = PBXBuildFile; fileRef = E23057CAF5538B1EC95C262EAC7B32EA /* 5B.wav */; };
+		980EBF92747834C9CCE63D6EF3D61BE8 /* 4A.wav in Sources */ = {isa = PBXBuildFile; fileRef = D0871E867FBB460F5F93B9335D4493F3 /* 4A.wav */; };
+		982B1C8DAFC91084C507D49190A0CDFD /* OpenALSupport.c in Sources */ = {isa = PBXBuildFile; fileRef = 2FE8F43F7368DF40D49D75E5CBD74687 /* OpenALSupport.c */; };
+		985729D17A7A0996FB48C554E282BBF5 /* 3C.wav in Sources */ = {isa = PBXBuildFile; fileRef = 37CF36226DE72818500FF8EEDC1EDEB1 /* 3C.wav */; };
+		9ED6E9EAB52F30C41706C92427460438 /* 0B.wav in Sources */ = {isa = PBXBuildFile; fileRef = 2286F7FEC7BC0A17A690A32ADACD26BC /* 0B.wav */; };
+		A11604716BD8D26CFE133B73CF740232 /* marimba058.caf in Sources */ = {isa = PBXBuildFile; fileRef = 4A4D42B8D4A89F45B9DC656ECCD1E8DD /* marimba058.caf */; };
+		A22FD694AB953A35A784F5BFD8F605CD /* bass052.caf in Sources */ = {isa = PBXBuildFile; fileRef = 0D2FFB36B68E8FC1CF3C240559BAD2E0 /* bass052.caf */; };
+		A2E07E133CF8FD2AC7DC7E25A24EB836 /* SoundBankPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = E1237E7E22D9F4C8831E4B96B587BCB0 /* SoundBankPlayer.m */; };
+		A4203EF6C44BF2DE9E167EA805F71346 /* A1_z.mp3 in Sources */ = {isa = PBXBuildFile; fileRef = D3614A6CBE8801A9669F1DCD3B343DEA /* A1_z.mp3 */; };
+		A455CA470789E75DC8EA701DAAD348DE /* harp095.caf in Sources */ = {isa = PBXBuildFile; fileRef = A5E4D8306BC1A25AC003BE050A10D386 /* harp095.caf */; };
+		A59BDC5C70F43744D0417663215B8373 /* harp024.caf in Sources */ = {isa = PBXBuildFile; fileRef = 8B3362E775EFCE842A92BC9A925CEF84 /* harp024.caf */; };
+		A6B6BC50FB69A21F731FAB10A4731F03 /* Zither.plist in Sources */ = {isa = PBXBuildFile; fileRef = 8C92123ECD48E202257497873C13D322 /* Zither.plist */; };
+		A998D33580602BC1178BC62C2A77CB97 /* harp054.caf in Sources */ = {isa = PBXBuildFile; fileRef = F508B83785E886E24F8DCE68BA83E682 /* harp054.caf */; };
+		AA9C4A0229042A5CF713A431F361A822 /* C2_z.mp3 in Sources */ = {isa = PBXBuildFile; fileRef = 700C407400DEFEEA5F767C968499C8E0 /* C2_z.mp3 */; };
+		AAA74C886C48C0FA67DDAA763F22D1B3 /* harp038.caf in Sources */ = {isa = PBXBuildFile; fileRef = CE5939E8B73203C613801B107A793433 /* harp038.caf */; };
+		AB06495148B43D537E174342DA2267DF /* 6A.wav in Sources */ = {isa = PBXBuildFile; fileRef = BB877E073A34DC1A54E2F4A4A0A0A5E0 /* 6A.wav */; };
+		AE6E6A0F79E1A5E5A742CE573C6CB9EA /* 3D.wav in Sources */ = {isa = PBXBuildFile; fileRef = 0B0180EA363AB844FFF68D085BD916D7 /* 3D.wav */; };
+		AEA6C844505EBD76A89BF8C6299B53E4 /* Harp.plist in Sources */ = {isa = PBXBuildFile; fileRef = 296ECE27EA84A2D8327CC5C1C5C999CF /* Harp.plist */; };
+		AEC514A2EDED5DAD7C07B716541C1B85 /* 0F.wav in Sources */ = {isa = PBXBuildFile; fileRef = 85810F735E670690C85A48DB035B4303 /* 0F.wav */; };
+		B214C8529B26C5418790250BB68EBDBE /* C6_z.mp3 in Sources */ = {isa = PBXBuildFile; fileRef = CFCEF6271F172693CE8DC25AD4728D7E /* C6_z.mp3 */; };
+		B2F7BA122FC318245EC91BC842C6DDDE /* guitar065.caf in Sources */ = {isa = PBXBuildFile; fileRef = B587225A5E2FF9016C2D6826822E5FCE /* guitar065.caf */; };
+		B3DD20D7C138C7DABCBEEC8C599616C6 /* 0A.wav in Sources */ = {isa = PBXBuildFile; fileRef = D1BBA95F9DC7B6F8709DFBFDD4C56CE0 /* 0A.wav */; };
+		B695E6656E54546CE1B7EB51454F19B8 /* 1E.wav in Sources */ = {isa = PBXBuildFile; fileRef = E1D2AEA7DBE284C433C2EB4E8D45999D /* 1E.wav */; };
+		BA2AFB8EDC3D8D408630F6F72981513C /* 2F.wav in Sources */ = {isa = PBXBuildFile; fileRef = 15D63A51FB79F18F8C30D157EB72DB20 /* 2F.wav */; };
+		BADC04ADEA70E7C236D53FEBD0B8129A /* bass048.caf in Sources */ = {isa = PBXBuildFile; fileRef = 1ECEFDEC305E8753EDF7246E7A3F4E82 /* bass048.caf */; };
+		BB4B8F9EB42AFCB338DD3BC71F0FE433 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
+		BE4AEE6A95E7196A571AC070761B4E39 /* harp099.caf in Sources */ = {isa = PBXBuildFile; fileRef = 26D02603E745B7DB4E5E53BFDBF0E860 /* harp099.caf */; };
+		BF0D4E68A564A894757E6921DEFC3E46 /* B2_z.mp3 in Sources */ = {isa = PBXBuildFile; fileRef = D8670ADC4610AFC7A935D4A4DD56C3F8 /* B2_z.mp3 */; };
+		C090B09E0A86A8B203114D2C2D34BE4A /* 4D.wav in Sources */ = {isa = PBXBuildFile; fileRef = B66520125AC62DC9EEEB84CFB8DAE511 /* 4D.wav */; };
+		C118672F8486710FE058D03E8C794409 /* 2G.wav in Sources */ = {isa = PBXBuildFile; fileRef = D56DA91C1B4F115CC7C3831D71213094 /* 2G.wav */; };
+		C254F67746FA720EA05944D64B258816 /* harp058.caf in Sources */ = {isa = PBXBuildFile; fileRef = 9A8E798AA50E93AD25EE6E5D3C302E20 /* harp058.caf */; };
+		C334EEB6911E8F2450EA5AF8515631F3 /* 1D.wav in Sources */ = {isa = PBXBuildFile; fileRef = 3E78E36805165B6C26B2DAA3FF0B11EA /* 1D.wav */; };
+		C3BC4686571EE8DE401E0D08A62274D0 /* bass045.caf in Sources */ = {isa = PBXBuildFile; fileRef = A243065BA3D0FBF41FB55B3B8B556C75 /* bass045.caf */; };
+		C5721A034E5884E7CF5DE729011DA773 /* d6.mp3 in Sources */ = {isa = PBXBuildFile; fileRef = 28D86678FC341138D1D11C8564788587 /* d6.mp3 */; };
+		C59C997D90E43D2D0D7608C846C4C495 /* a2m.mp3 in Sources */ = {isa = PBXBuildFile; fileRef = 005F28749AD71251734A4BF2E193710A /* a2m.mp3 */; };
+		C5A27ACF8046E014BBDF5BF6F3C4F9BA /* 3E.wav in Sources */ = {isa = PBXBuildFile; fileRef = 6D091F73D7E43EECEB6C79AB5698D9C8 /* 3E.wav */; };
+		C610435A15DA4AF0AC6AE480F7DD3D8F /* guitar074.caf in Sources */ = {isa = PBXBuildFile; fileRef = B55B259C5710CCB03D068763430AE0ED /* guitar074.caf */; };
+		C67ACE554F00BA4C5C486632D1CE2FA6 /* f4m.mp3 in Sources */ = {isa = PBXBuildFile; fileRef = 35F0B99C6C21A391EDD08534E4C3BB8F /* f4m.mp3 */; };
+		C78AB1950A7D1256EF139EF71230FED8 /* 6D.wav in Sources */ = {isa = PBXBuildFile; fileRef = 90568CD43DBA6D659D346F7A67726E52 /* 6D.wav */; };
+		C7DD073D9FC2485D6DFE1F0FEF321C79 /* 2C.wav in Sources */ = {isa = PBXBuildFile; fileRef = 448AB0AC47A97FA5FDA02B748E84B483 /* 2C.wav */; };
+		CB49515366927631C3C8AC67A263222A /* -1E.wav in Sources */ = {isa = PBXBuildFile; fileRef = E6D06E813D981888D0F2157EA2A37718 /* -1E.wav */; };
+		CCD0881FB6704DD94A397114AC43E511 /* marimba086.caf in Sources */ = {isa = PBXBuildFile; fileRef = B632816423032EE7C4CE112A4BB57D22 /* marimba086.caf */; };
+		CCF70ECB761E413DE546103928799142 /* guitar081.caf in Sources */ = {isa = PBXBuildFile; fileRef = 5D1A04E5C323AAA363FCC62C78D13980 /* guitar081.caf */; };
+		CD1A58A18B17526515A2025B99ADDCF7 /* 5E.wav in Sources */ = {isa = PBXBuildFile; fileRef = 8A50A76BA124F1D32A19FE820E795CD3 /* 5E.wav */; };
+		CD80BAE9CC1953ACE5EFF0610E9C1D26 /* bass028.caf in Sources */ = {isa = PBXBuildFile; fileRef = B241B283A1299CF45C01240C72214E40 /* bass028.caf */; };
+		CD857C0D7D1CA7DDBAA9C85C7895F378 /* d8m.mp3 in Sources */ = {isa = PBXBuildFile; fileRef = AD8D27BF2BFE9F2C52CACFC80AC09586 /* d8m.mp3 */; };
+		CE8F61C67E1E2C4C2721ABD6867CA374 /* bass033.caf in Sources */ = {isa = PBXBuildFile; fileRef = 35484D6CABBF3AA64BE692BB0603C871 /* bass033.caf */; };
+		CF38A4B3E432232389F2F41DF9EB3A40 /* marimba065.caf in Sources */ = {isa = PBXBuildFile; fileRef = FA444C17DAF5FEA68A23C6D4B48FD0B7 /* marimba065.caf */; };
+		D067B6AB6052C20B8F93573B87605307 /* d5.mp3 in Sources */ = {isa = PBXBuildFile; fileRef = 1B306B2C038473B0286393DEBC319A28 /* d5.mp3 */; };
+		D0A0596B9A96D4D40BF8A6251CDFAED5 /* 6G.wav in Sources */ = {isa = PBXBuildFile; fileRef = 4615FF6CB1AD5DF1888DD53673724B91 /* 6G.wav */; };
+		D14AAF0E98D73D3ADA06338432AC7EB7 /* 3A.wav in Sources */ = {isa = PBXBuildFile; fileRef = CC08503CD8D9992D73DA48C2C898A787 /* 3A.wav */; };
+		D2F4B8D895E7ABE677C3EF104AA1F73D /* 2A.wav in Sources */ = {isa = PBXBuildFile; fileRef = C961EAD16EF6C2BE4756267B022B86DF /* 2A.wav */; };
+		D5875A9C64938963E4D3CEE59661EBFB /* 4G.wav in Sources */ = {isa = PBXBuildFile; fileRef = F197C21F76AB200FB02DF72F49507578 /* 4G.wav */; };
+		D7A7FD64801F84729D53B714E5A7424F /* B1_z.mp3 in Sources */ = {isa = PBXBuildFile; fileRef = C90915053F008ABCCA13E0FEA4431C55 /* B1_z.mp3 */; };
+		D849B67A36A0C723D3B3BD4A6BB7C317 /* PianoE.plist in Sources */ = {isa = PBXBuildFile; fileRef = 8F2C6D1F837C3B99BB4BE76B9DFA0E39 /* PianoE.plist */; };
+		D93E159D118411B832BE647B97DD9DCF /* D6_z.mp3 in Sources */ = {isa = PBXBuildFile; fileRef = C49B261564770B681C27E061F287A94B /* D6_z.mp3 */; };
+		D9C4C7ED3B366E7EDF461BBEB78A045A /* 7C.wav in Sources */ = {isa = PBXBuildFile; fileRef = D18FBBB676492D75D7360E9A21453788 /* 7C.wav */; };
+		DA18F2B45740DFAC4CEE1D1456B4E154 /* -1D.wav in Sources */ = {isa = PBXBuildFile; fileRef = C7970D69657D913F6FD57E7AAA9684EE /* -1D.wav */; };
+		DA9322BE086D3EBDACDDC8EB6EC4A493 /* B3_z.mp3 in Sources */ = {isa = PBXBuildFile; fileRef = A0CE5FABD5B40F3CBA85C48AF01969A1 /* B3_z.mp3 */; };
+		DAC55685702A797894AC9C2E377463DC /* 0E.wav in Sources */ = {isa = PBXBuildFile; fileRef = 0699B79A4AF67FF21FCBC97777087B23 /* 0E.wav */; };
+		DAD22A1948140AECCD1C86E622DFDEC7 /* a5m.mp3 in Sources */ = {isa = PBXBuildFile; fileRef = DCF2137B478E9105CC874DE6E7C6E788 /* a5m.mp3 */; };
+		DCC3988A861AB0C83340A9E1D4028049 /* guitar056.caf in Sources */ = {isa = PBXBuildFile; fileRef = 764EA76ECD0E1561DDAAAB928C93BA85 /* guitar056.caf */; };
+		DEE0B7ECA64F1665B9BB81591360294F /* 1F.wav in Sources */ = {isa = PBXBuildFile; fileRef = EAA848C6D679225FA0821053C2AE4846 /* 1F.wav */; };
+		E443BE1302845A85F0E3383C605E7261 /* 5G.wav in Sources */ = {isa = PBXBuildFile; fileRef = 0AD98AE607B34EFEF1CE590A15AF9C2F /* 5G.wav */; };
+		E508D59D8C01266A0AFBEEE448FAE3A6 /* A6_z.mp3 in Sources */ = {isa = PBXBuildFile; fileRef = 125C8A9C2DAE18868987556BDB2D37A0 /* A6_z.mp3 */; };
+		E50A4F1D4D4B789C63F0D4230FBDEA39 /* marimba045.caf in Sources */ = {isa = PBXBuildFile; fileRef = 19AF50347FB0EFE2AF2C8C34A7C764AB /* marimba045.caf */; };
+		E7378273F25C57B756C860109AEDA14A /* 6B.wav in Sources */ = {isa = PBXBuildFile; fileRef = 67F396CB5BF7B0BD797EC24EF28B94B5 /* 6B.wav */; };
+		E7A6FD0763140C072A8A04F01669B859 /* bass057.caf in Sources */ = {isa = PBXBuildFile; fileRef = 452F21D844BAD609E11654DE9DD1A445 /* bass057.caf */; };
+		EFE890F090BA3B5B68F766882CDFDB5D /* OpenALKit-iOS-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6E30F70933EB4CC3789C3334C9054D07 /* OpenALKit-iOS-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F0F4AFEC9189837B16D8F647FC2D3643 /* Pods-OpenALKit-iOS_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8000F98FF4B9BCC84B7B07DEC8760D85 /* Pods-OpenALKit-iOS_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FA0198D88AA395B31B6E092E15ECCA1D /* 2D.wav in Sources */ = {isa = PBXBuildFile; fileRef = 4414871D1FF7FEF82F31662188D54806 /* 2D.wav */; };
+		FA39E94B92A5ED5405308439357422DD /* guitar062.caf in Sources */ = {isa = PBXBuildFile; fileRef = 8406E594510DD87A6259D0D1637CCFD2 /* guitar062.caf */; };
+		FADF85AA04081254182DD8882F3E5E6D /* SoundBankPlayer.h in Headers */ = {isa = PBXBuildFile; fileRef = 3FC6E39DE294442B80128731BE57B25E /* SoundBankPlayer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FB3CFF4CA68257B05558EF7BE34BDFF2 /* f2m.mp3 in Sources */ = {isa = PBXBuildFile; fileRef = 028FAF5C43440E10298F25F0D2B8319F /* f2m.mp3 */; };
+		FBFF0B6F9638ACC64464593E749C0A4D /* D5_z.mp3 in Sources */ = {isa = PBXBuildFile; fileRef = B339F6FB4260B08404FF94F9CD131D4E /* D5_z.mp3 */; };
+		FC412CFCFA2029BBC881F21E0E4ADBC3 /* C5_z.mp3 in Sources */ = {isa = PBXBuildFile; fileRef = 1C36DB64B452C9F0E58A640AD5668C3B /* C5_z.mp3 */; };
+		FD5C5B899A8D9780248B6FDAE1EE09D2 /* a3m.mp3 in Sources */ = {isa = PBXBuildFile; fileRef = B84D0B544EB3197B0534A3CF50ABE93F /* a3m.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -24,38 +174,188 @@
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 550E84ACCD8A473F6F27C69847063BE2;
+			remoteGlobalIDString = 86DAB842AB6783FC212B01242364DC78;
 			remoteInfo = "OpenALKit-iOS";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0BDC2B316062C8C2FB649E190C742910 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		0F7E648678936B4BFD79D9080B539B82 /* OpenALKit-iOS.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "OpenALKit-iOS.xcconfig"; sourceTree = "<group>"; };
+		005F28749AD71251734A4BF2E193710A /* a2m.mp3 */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = audio.mp3; path = a2m.mp3; sourceTree = "<group>"; };
+		0062085951947165F31C5C1C966DB114 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		028FAF5C43440E10298F25F0D2B8319F /* f2m.mp3 */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = audio.mp3; path = f2m.mp3; sourceTree = "<group>"; };
+		02B0CEE506128BAF538AA90C19FCEA77 /* A2_z.mp3 */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = audio.mp3; path = A2_z.mp3; sourceTree = "<group>"; };
+		02C34F38354D3C6529151B9E6CE5EC24 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		0699B79A4AF67FF21FCBC97777087B23 /* 0E.wav */ = {isa = PBXFileReference; includeInIndex = 1; path = 0E.wav; sourceTree = "<group>"; };
+		090165EE41FC11FAF9D40D3B165432A5 /* d3.mp3 */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = audio.mp3; path = d3.mp3; sourceTree = "<group>"; };
+		0AD98AE607B34EFEF1CE590A15AF9C2F /* 5G.wav */ = {isa = PBXFileReference; includeInIndex = 1; path = 5G.wav; sourceTree = "<group>"; };
+		0B0180EA363AB844FFF68D085BD916D7 /* 3D.wav */ = {isa = PBXFileReference; includeInIndex = 1; path = 3D.wav; sourceTree = "<group>"; };
+		0D2FFB36B68E8FC1CF3C240559BAD2E0 /* bass052.caf */ = {isa = PBXFileReference; includeInIndex = 1; path = bass052.caf; sourceTree = "<group>"; };
+		0E21A509A34F7E8ED18BE6B48CA36521 /* harp065.caf */ = {isa = PBXFileReference; includeInIndex = 1; path = harp065.caf; sourceTree = "<group>"; };
+		1077D1B9146417BFEAAA9000637E4FCB /* OpenALKit-iOS-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "OpenALKit-iOS-Info.plist"; sourceTree = "<group>"; };
+		10BEEB56D8FB49B85929FC6DF078D4F3 /* f6m.mp3 */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = audio.mp3; path = f6m.mp3; sourceTree = "<group>"; };
+		125C8A9C2DAE18868987556BDB2D37A0 /* A6_z.mp3 */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = audio.mp3; path = A6_z.mp3; sourceTree = "<group>"; };
+		15D63A51FB79F18F8C30D157EB72DB20 /* 2F.wav */ = {isa = PBXFileReference; includeInIndex = 1; path = 2F.wav; sourceTree = "<group>"; };
 		1924AB5D87EA2C20677CB082BC0C31BC /* OpenALKit_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = OpenALKit_iOS.framework; path = "OpenALKit-iOS.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		19AF50347FB0EFE2AF2C8C34A7C764AB /* marimba045.caf */ = {isa = PBXFileReference; includeInIndex = 1; path = marimba045.caf; sourceTree = "<group>"; };
+		1B306B2C038473B0286393DEBC319A28 /* d5.mp3 */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = audio.mp3; path = d5.mp3; sourceTree = "<group>"; };
+		1C277EDAB1F83E09FC2A91CF04F02CF3 /* 1G.wav */ = {isa = PBXFileReference; includeInIndex = 1; path = 1G.wav; sourceTree = "<group>"; };
+		1C36DB64B452C9F0E58A640AD5668C3B /* C5_z.mp3 */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = audio.mp3; path = C5_z.mp3; sourceTree = "<group>"; };
 		1DDB39F6994157EC57A6DB646831E15C /* Pods-OpenALKit-iOS_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-OpenALKit-iOS_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		2E7B77AEF9677BE2DA9124FF0BAEA28D /* OpenALKit-iOS.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "OpenALKit-iOS.modulemap"; sourceTree = "<group>"; };
+		1ECEFDEC305E8753EDF7246E7A3F4E82 /* bass048.caf */ = {isa = PBXFileReference; includeInIndex = 1; path = bass048.caf; sourceTree = "<group>"; };
+		2286F7FEC7BC0A17A690A32ADACD26BC /* 0B.wav */ = {isa = PBXFileReference; includeInIndex = 1; path = 0B.wav; sourceTree = "<group>"; };
+		26D02603E745B7DB4E5E53BFDBF0E860 /* harp099.caf */ = {isa = PBXFileReference; includeInIndex = 1; path = harp099.caf; sourceTree = "<group>"; };
+		28D86678FC341138D1D11C8564788587 /* d6.mp3 */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = audio.mp3; path = d6.mp3; sourceTree = "<group>"; };
+		296ECE27EA84A2D8327CC5C1C5C999CF /* Harp.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Harp.plist; sourceTree = "<group>"; };
+		2A75922EDD4597B7FC6807F2E718C30D /* 1C.wav */ = {isa = PBXFileReference; includeInIndex = 1; path = 1C.wav; sourceTree = "<group>"; };
+		2AEA4A06C7FEC6551D9F9A02D986503B /* D3_z.mp3 */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = audio.mp3; path = D3_z.mp3; sourceTree = "<group>"; };
+		2CAD65EC20F63B77CA931D98F65125E6 /* 0D.wav */ = {isa = PBXFileReference; includeInIndex = 1; path = 0D.wav; sourceTree = "<group>"; };
+		2CD04F741AF3BD868C726B0C741FF170 /* 1B.wav */ = {isa = PBXFileReference; includeInIndex = 1; path = 1B.wav; sourceTree = "<group>"; };
+		2D45BC722673D13968A86EDEC2EA7A4F /* harp062.caf */ = {isa = PBXFileReference; includeInIndex = 1; path = harp062.caf; sourceTree = "<group>"; };
+		2FE8F43F7368DF40D49D75E5CBD74687 /* OpenALSupport.c */ = {isa = PBXFileReference; includeInIndex = 1; name = OpenALSupport.c; path = "OpenALKit-iOS/Classes/OpenALSupport.c"; sourceTree = "<group>"; };
+		3182FEC6275480850C26BB5D374850F1 /* marimba068.caf */ = {isa = PBXFileReference; includeInIndex = 1; path = marimba068.caf; sourceTree = "<group>"; };
 		33D747D79DCB02F971D306ADA98F6D39 /* Pods-OpenALKit-iOS_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-OpenALKit-iOS_Tests-dummy.m"; sourceTree = "<group>"; };
-		49EE4B50B127D7DA10A88910DA59648D /* SoundBankPlayer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SoundBankPlayer.m; path = "OpenALKit-iOS/Classes/SoundBankPlayer.m"; sourceTree = "<group>"; };
+		35484D6CABBF3AA64BE692BB0603C871 /* bass033.caf */ = {isa = PBXFileReference; includeInIndex = 1; path = bass033.caf; sourceTree = "<group>"; };
+		35F0B99C6C21A391EDD08534E4C3BB8F /* f4m.mp3 */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = audio.mp3; path = f4m.mp3; sourceTree = "<group>"; };
+		37CF36226DE72818500FF8EEDC1EDEB1 /* 3C.wav */ = {isa = PBXFileReference; includeInIndex = 1; path = 3C.wav; sourceTree = "<group>"; };
+		38BA6E8CE74A25285C40F06AF32E4C51 /* guitar045.caf */ = {isa = PBXFileReference; includeInIndex = 1; path = guitar045.caf; sourceTree = "<group>"; };
+		38FE9770F2DAE7FFC1D91AF1341407FD /* B6_z.mp3 */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = audio.mp3; path = B6_z.mp3; sourceTree = "<group>"; };
+		3CE1DB47D274B5315ACD1AC0DE877455 /* f5m.mp3 */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = audio.mp3; path = f5m.mp3; sourceTree = "<group>"; };
+		3E78E36805165B6C26B2DAA3FF0B11EA /* 1D.wav */ = {isa = PBXFileReference; includeInIndex = 1; path = 1D.wav; sourceTree = "<group>"; };
+		3FC6E39DE294442B80128731BE57B25E /* SoundBankPlayer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SoundBankPlayer.h; path = "OpenALKit-iOS/Classes/SoundBankPlayer.h"; sourceTree = "<group>"; };
+		4414871D1FF7FEF82F31662188D54806 /* 2D.wav */ = {isa = PBXFileReference; includeInIndex = 1; path = 2D.wav; sourceTree = "<group>"; };
+		4470EFF1129DF7C02A3474D58B45CA64 /* 5A.wav */ = {isa = PBXFileReference; includeInIndex = 1; path = 5A.wav; sourceTree = "<group>"; };
+		448AB0AC47A97FA5FDA02B748E84B483 /* 2C.wav */ = {isa = PBXFileReference; includeInIndex = 1; path = 2C.wav; sourceTree = "<group>"; };
+		452F21D844BAD609E11654DE9DD1A445 /* bass057.caf */ = {isa = PBXFileReference; includeInIndex = 1; path = bass057.caf; sourceTree = "<group>"; };
+		4615FF6CB1AD5DF1888DD53673724B91 /* 6G.wav */ = {isa = PBXFileReference; includeInIndex = 1; path = 6G.wav; sourceTree = "<group>"; };
+		462981489A39763FDCEC39E28CDD71E3 /* -1F.wav */ = {isa = PBXFileReference; includeInIndex = 1; path = "-1F.wav"; sourceTree = "<group>"; };
+		4A4D42B8D4A89F45B9DC656ECCD1E8DD /* marimba058.caf */ = {isa = PBXFileReference; includeInIndex = 1; path = marimba058.caf; sourceTree = "<group>"; };
+		4BC65D6FE1348CD6CB34995AD6616F96 /* marimba077.caf */ = {isa = PBXFileReference; includeInIndex = 1; path = marimba077.caf; sourceTree = "<group>"; };
 		4C272166AD9B98144E7A04960A7471B5 /* Pods_OpenALKit_iOS_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_OpenALKit_iOS_Tests.framework; path = "Pods-OpenALKit-iOS_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		56E6DDD5F9808BA246261021B5A12D9F /* OpenALKit-iOS.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = "OpenALKit-iOS.podspec"; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		4C60735171F887AED933A9C9D66993E2 /* Guitar.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Guitar.plist; sourceTree = "<group>"; };
+		4C694D0FCAD18DE2703E0B1494E267B4 /* Bass.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Bass.plist; sourceTree = "<group>"; };
+		5095FB34AA9DB06E69BF9F20A152FE06 /* f3m.mp3 */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = audio.mp3; path = f3m.mp3; sourceTree = "<group>"; };
+		51F9F5F830782595A9BBABB52BC150F8 /* guitar077.caf */ = {isa = PBXFileReference; includeInIndex = 1; path = guitar077.caf; sourceTree = "<group>"; };
+		561EE148C5FE940ECD3F35646B689A7A /* guitar049.caf */ = {isa = PBXFileReference; includeInIndex = 1; path = guitar049.caf; sourceTree = "<group>"; };
+		56ADC7232F712D6B9E95DA3C98B2374B /* c7.mp3 */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = audio.mp3; path = c7.mp3; sourceTree = "<group>"; };
+		5D1A04E5C323AAA363FCC62C78D13980 /* guitar081.caf */ = {isa = PBXFileReference; includeInIndex = 1; path = guitar081.caf; sourceTree = "<group>"; };
+		60EA13DC0CDBC114BA771EFCF57E6613 /* a4m.mp3 */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = audio.mp3; path = a4m.mp3; sourceTree = "<group>"; };
+		67F396CB5BF7B0BD797EC24EF28B94B5 /* 6B.wav */ = {isa = PBXFileReference; includeInIndex = 1; path = 6B.wav; sourceTree = "<group>"; };
+		6ADDB7B053FA535BD629201DEEA48E64 /* C1_z.mp3 */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = audio.mp3; path = C1_z.mp3; sourceTree = "<group>"; };
 		6AF139100CBEC6162CBD63BFB821EBBC /* Pods-OpenALKit-iOS_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OpenALKit-iOS_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		6D091F73D7E43EECEB6C79AB5698D9C8 /* 3E.wav */ = {isa = PBXFileReference; includeInIndex = 1; path = 3E.wav; sourceTree = "<group>"; };
+		6E30F70933EB4CC3789C3334C9054D07 /* OpenALKit-iOS-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "OpenALKit-iOS-umbrella.h"; sourceTree = "<group>"; };
+		700C407400DEFEEA5F767C968499C8E0 /* C2_z.mp3 */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = audio.mp3; path = C2_z.mp3; sourceTree = "<group>"; };
+		705470C6A5AC911249288BB9995DEDDB /* C3_z.mp3 */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = audio.mp3; path = C3_z.mp3; sourceTree = "<group>"; };
+		760C1ADB48524BD290B4ED330A0E718B /* E1_z.mp3 */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = audio.mp3; path = E1_z.mp3; sourceTree = "<group>"; };
+		764EA76ECD0E1561DDAAAB928C93BA85 /* guitar056.caf */ = {isa = PBXFileReference; includeInIndex = 1; path = guitar056.caf; sourceTree = "<group>"; };
+		76B971976695BF0181F6CC54C1D02C1F /* 2B.wav */ = {isa = PBXFileReference; includeInIndex = 1; path = 2B.wav; sourceTree = "<group>"; };
+		76F25414E837742E14A0C7FD16FF240E /* bass038.caf */ = {isa = PBXFileReference; includeInIndex = 1; path = bass038.caf; sourceTree = "<group>"; };
 		8000F98FF4B9BCC84B7B07DEC8760D85 /* Pods-OpenALKit-iOS_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-OpenALKit-iOS_Tests-umbrella.h"; sourceTree = "<group>"; };
-		81F79FF994B410F0716E35DF27D087E6 /* OpenALKit-iOS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "OpenALKit-iOS-dummy.m"; sourceTree = "<group>"; };
-		8206B926707137762099540D4A9F1117 /* OpenALSupport.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OpenALSupport.h; path = "OpenALKit-iOS/Classes/OpenALSupport.h"; sourceTree = "<group>"; };
-		824FC7E30C0981568B6A50EF6317F877 /* OpenALKit-iOS-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "OpenALKit-iOS-umbrella.h"; sourceTree = "<group>"; };
-		940A347E59600E596E22E91CD525AC7A /* OpenALSupport.c */ = {isa = PBXFileReference; includeInIndex = 1; name = OpenALSupport.c; path = "OpenALKit-iOS/Classes/OpenALSupport.c"; sourceTree = "<group>"; };
-		953244A6B782EABDB67BC4B943FB723C /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		8056CC1201C655E383F7B0EE6558BA8A /* 3F.wav */ = {isa = PBXFileReference; includeInIndex = 1; path = 3F.wav; sourceTree = "<group>"; };
+		80593F0654083CB945B556B819AB8F7C /* 5D.wav */ = {isa = PBXFileReference; includeInIndex = 1; path = 5D.wav; sourceTree = "<group>"; };
+		805B117C4715A86647A771AB92CC371B /* 2E.wav */ = {isa = PBXFileReference; includeInIndex = 1; path = 2E.wav; sourceTree = "<group>"; };
+		808F774218EECAC6D934B0EC4CEA896A /* OpenALSupport.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OpenALSupport.h; path = "OpenALKit-iOS/Classes/OpenALSupport.h"; sourceTree = "<group>"; };
+		8406E594510DD87A6259D0D1637CCFD2 /* guitar062.caf */ = {isa = PBXFileReference; includeInIndex = 1; path = guitar062.caf; sourceTree = "<group>"; };
+		85810F735E670690C85A48DB035B4303 /* 0F.wav */ = {isa = PBXFileReference; includeInIndex = 1; path = 0F.wav; sourceTree = "<group>"; };
+		858875521E5D90590D2498D372109BA9 /* -1A.wav */ = {isa = PBXFileReference; includeInIndex = 1; path = "-1A.wav"; sourceTree = "<group>"; };
+		86D7040D7765EE47D659F5126FCACB00 /* -1G.wav */ = {isa = PBXFileReference; includeInIndex = 1; path = "-1G.wav"; sourceTree = "<group>"; };
+		86FF309FA4CB59814F0CD681F8D68EFE /* harp068.caf */ = {isa = PBXFileReference; includeInIndex = 1; path = harp068.caf; sourceTree = "<group>"; };
+		8A2B78B6ECE2F5C1DF52C42387B6460B /* A5_z.mp3 */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = audio.mp3; path = A5_z.mp3; sourceTree = "<group>"; };
+		8A50A76BA124F1D32A19FE820E795CD3 /* 5E.wav */ = {isa = PBXFileReference; includeInIndex = 1; path = 5E.wav; sourceTree = "<group>"; };
+		8B3362E775EFCE842A92BC9A925CEF84 /* harp024.caf */ = {isa = PBXFileReference; includeInIndex = 1; path = harp024.caf; sourceTree = "<group>"; };
+		8C92123ECD48E202257497873C13D322 /* Zither.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Zither.plist; sourceTree = "<group>"; };
+		8DD435FC087C0A72A041B0385A890045 /* 6E.wav */ = {isa = PBXFileReference; includeInIndex = 1; path = 6E.wav; sourceTree = "<group>"; };
+		8EEDFEB2E43EA4165183E6DEA7A256EC /* harp072.caf */ = {isa = PBXFileReference; includeInIndex = 1; path = harp072.caf; sourceTree = "<group>"; };
+		8F2C6D1F837C3B99BB4BE76B9DFA0E39 /* PianoE.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = PianoE.plist; sourceTree = "<group>"; };
+		90568CD43DBA6D659D346F7A67726E52 /* 6D.wav */ = {isa = PBXFileReference; includeInIndex = 1; path = 6D.wav; sourceTree = "<group>"; };
+		90A5D75E5A818064D104FE1129A80183 /* Marimba.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Marimba.plist; sourceTree = "<group>"; };
+		92A7E0EAB74D4E1C79BEA9CA186B6102 /* OpenALKit-iOS.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "OpenALKit-iOS.xcconfig"; sourceTree = "<group>"; };
+		93201BAC4AAB993B66DACBC7D7B4A27C /* 4C.wav */ = {isa = PBXFileReference; includeInIndex = 1; path = 4C.wav; sourceTree = "<group>"; };
+		973E35227E2173E4235B9193CE22858F /* A3_z.mp3 */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = audio.mp3; path = A3_z.mp3; sourceTree = "<group>"; };
+		9927CA9BFFF52D24DE00EF233F2D03E2 /* 1A.wav */ = {isa = PBXFileReference; includeInIndex = 1; path = 1A.wav; sourceTree = "<group>"; };
+		9A3F1F4827816C39BC970DD44A040563 /* bass067.caf */ = {isa = PBXFileReference; includeInIndex = 1; path = bass067.caf; sourceTree = "<group>"; };
+		9A8E798AA50E93AD25EE6E5D3C302E20 /* harp058.caf */ = {isa = PBXFileReference; includeInIndex = 1; path = harp058.caf; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A7B0CA13378FB99403F1DAB96CF4D146 /* OpenALKit-iOS-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "OpenALKit-iOS-Info.plist"; sourceTree = "<group>"; };
+		9E65AF8609EA8B8915934FFB2A7BCC98 /* 0G.wav */ = {isa = PBXFileReference; includeInIndex = 1; path = 0G.wav; sourceTree = "<group>"; };
+		9F639F56FE8AA6192030CD7CFC3C0407 /* marimba062.caf */ = {isa = PBXFileReference; includeInIndex = 1; path = marimba062.caf; sourceTree = "<group>"; };
+		A0CE5FABD5B40F3CBA85C48AF01969A1 /* B3_z.mp3 */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = audio.mp3; path = B3_z.mp3; sourceTree = "<group>"; };
+		A243065BA3D0FBF41FB55B3B8B556C75 /* bass045.caf */ = {isa = PBXFileReference; includeInIndex = 1; path = bass045.caf; sourceTree = "<group>"; };
+		A28EFE48331A619100AEA185C5F81462 /* D2_z.mp3 */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = audio.mp3; path = D2_z.mp3; sourceTree = "<group>"; };
+		A4BA8E601F9577BC422A93908A7731A0 /* guitar053.caf */ = {isa = PBXFileReference; includeInIndex = 1; path = guitar053.caf; sourceTree = "<group>"; };
+		A5E4D8306BC1A25AC003BE050A10D386 /* harp095.caf */ = {isa = PBXFileReference; includeInIndex = 1; path = harp095.caf; sourceTree = "<group>"; };
+		A727123227BA15177B8936A94D92DD39 /* OpenALKit-iOS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "OpenALKit-iOS-dummy.m"; sourceTree = "<group>"; };
+		A7DD32A7CB203AEDD07E41F07D260CB8 /* Default.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Default.plist; sourceTree = "<group>"; };
+		AA461D5EC695AD5536349EB4966A19EC /* harp045.caf */ = {isa = PBXFileReference; includeInIndex = 1; path = harp045.caf; sourceTree = "<group>"; };
+		AB197EC757CEDE20411698784B2F74FD /* OpenALKit-iOS-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "OpenALKit-iOS-prefix.pch"; sourceTree = "<group>"; };
+		AD2757990EDA3D019AEFD360FFCDF51A /* harp031.caf */ = {isa = PBXFileReference; includeInIndex = 1; path = harp031.caf; sourceTree = "<group>"; };
+		AD8D27BF2BFE9F2C52CACFC80AC09586 /* d8m.mp3 */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = audio.mp3; path = d8m.mp3; sourceTree = "<group>"; };
+		AF314B15D97A959D5196B64DE74CF4F2 /* harp077.caf */ = {isa = PBXFileReference; includeInIndex = 1; path = harp077.caf; sourceTree = "<group>"; };
+		B241B283A1299CF45C01240C72214E40 /* bass028.caf */ = {isa = PBXFileReference; includeInIndex = 1; path = bass028.caf; sourceTree = "<group>"; };
+		B339F6FB4260B08404FF94F9CD131D4E /* D5_z.mp3 */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = audio.mp3; path = D5_z.mp3; sourceTree = "<group>"; };
+		B34831071290651FB7E9736B96679885 /* f7m.mp3 */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = audio.mp3; path = f7m.mp3; sourceTree = "<group>"; };
+		B4165CC8C5FD30111DB4E67F0A724581 /* 4B.wav */ = {isa = PBXFileReference; includeInIndex = 1; path = 4B.wav; sourceTree = "<group>"; };
 		B49600F8326439EFA3F78B64E2CB7A36 /* Pods-OpenALKit-iOS_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OpenALKit-iOS_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		B7B30054270B03922AC46F8B16B7172E /* SoundBankPlayer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SoundBankPlayer.h; path = "OpenALKit-iOS/Classes/SoundBankPlayer.h"; sourceTree = "<group>"; };
+		B51F88997813DB3759E57BF650A896E4 /* marimba072.caf */ = {isa = PBXFileReference; includeInIndex = 1; path = marimba072.caf; sourceTree = "<group>"; };
+		B55B259C5710CCB03D068763430AE0ED /* guitar074.caf */ = {isa = PBXFileReference; includeInIndex = 1; path = guitar074.caf; sourceTree = "<group>"; };
+		B587225A5E2FF9016C2D6826822E5FCE /* guitar065.caf */ = {isa = PBXFileReference; includeInIndex = 1; path = guitar065.caf; sourceTree = "<group>"; };
+		B632816423032EE7C4CE112A4BB57D22 /* marimba086.caf */ = {isa = PBXFileReference; includeInIndex = 1; path = marimba086.caf; sourceTree = "<group>"; };
+		B66520125AC62DC9EEEB84CFB8DAE511 /* 4D.wav */ = {isa = PBXFileReference; includeInIndex = 1; path = 4D.wav; sourceTree = "<group>"; };
+		B84D0B544EB3197B0534A3CF50ABE93F /* a3m.mp3 */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = audio.mp3; path = a3m.mp3; sourceTree = "<group>"; };
 		BA4F9EB8A9664D59BC3A04E855DC8557 /* Pods-OpenALKit-iOS_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-OpenALKit-iOS_Tests.modulemap"; sourceTree = "<group>"; };
-		C8681A96BCB8EDD8468B61D4C4157895 /* OpenALKit-iOS-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "OpenALKit-iOS-prefix.pch"; sourceTree = "<group>"; };
+		BB877E073A34DC1A54E2F4A4A0A0A5E0 /* 6A.wav */ = {isa = PBXFileReference; includeInIndex = 1; path = 6A.wav; sourceTree = "<group>"; };
+		BC1D79B706FE167DAB7E3CAEFEE18A0D /* 3G.wav */ = {isa = PBXFileReference; includeInIndex = 1; path = 3G.wav; sourceTree = "<group>"; };
+		BFFD1EDDF224E4C1F4FAE3624C617847 /* 3B.wav */ = {isa = PBXFileReference; includeInIndex = 1; path = 3B.wav; sourceTree = "<group>"; };
+		C493364FCD3F48649D94471526E3321C /* d2.mp3 */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = audio.mp3; path = d2.mp3; sourceTree = "<group>"; };
+		C49B261564770B681C27E061F287A94B /* D6_z.mp3 */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = audio.mp3; path = D6_z.mp3; sourceTree = "<group>"; };
+		C6AC00B1B54326DC0006205D1D3E318E /* bass062.caf */ = {isa = PBXFileReference; includeInIndex = 1; path = bass062.caf; sourceTree = "<group>"; };
+		C7970D69657D913F6FD57E7AAA9684EE /* -1D.wav */ = {isa = PBXFileReference; includeInIndex = 1; path = "-1D.wav"; sourceTree = "<group>"; };
+		C90915053F008ABCCA13E0FEA4431C55 /* B1_z.mp3 */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = audio.mp3; path = B1_z.mp3; sourceTree = "<group>"; };
+		C961EAD16EF6C2BE4756267B022B86DF /* 2A.wav */ = {isa = PBXFileReference; includeInIndex = 1; path = 2A.wav; sourceTree = "<group>"; };
+		CA472CD8B82674E0B9925CC1C1D98396 /* 6F.wav */ = {isa = PBXFileReference; includeInIndex = 1; path = 6F.wav; sourceTree = "<group>"; };
+		CAE274B8B9629A822F56ADBE6C801D9D /* bass043.caf */ = {isa = PBXFileReference; includeInIndex = 1; path = bass043.caf; sourceTree = "<group>"; };
 		CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		CC08503CD8D9992D73DA48C2C898A787 /* 3A.wav */ = {isa = PBXFileReference; includeInIndex = 1; path = 3A.wav; sourceTree = "<group>"; };
+		CE5939E8B73203C613801B107A793433 /* harp038.caf */ = {isa = PBXFileReference; includeInIndex = 1; path = harp038.caf; sourceTree = "<group>"; };
+		CE80C5408ABB4449EBE6E4FCC38BB82A /* 5C.wav */ = {isa = PBXFileReference; includeInIndex = 1; path = 5C.wav; sourceTree = "<group>"; };
+		CFCEF6271F172693CE8DC25AD4728D7E /* C6_z.mp3 */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = audio.mp3; path = C6_z.mp3; sourceTree = "<group>"; };
+		D0871E867FBB460F5F93B9335D4493F3 /* 4A.wav */ = {isa = PBXFileReference; includeInIndex = 1; path = 4A.wav; sourceTree = "<group>"; };
+		D18FBBB676492D75D7360E9A21453788 /* 7C.wav */ = {isa = PBXFileReference; includeInIndex = 1; path = 7C.wav; sourceTree = "<group>"; };
+		D1BBA95F9DC7B6F8709DFBFDD4C56CE0 /* 0A.wav */ = {isa = PBXFileReference; includeInIndex = 1; path = 0A.wav; sourceTree = "<group>"; };
+		D3614A6CBE8801A9669F1DCD3B343DEA /* A1_z.mp3 */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = audio.mp3; path = A1_z.mp3; sourceTree = "<group>"; };
+		D425AA26A7FAE3C5AB4C2C0177125A25 /* D1_z.mp3 */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = audio.mp3; path = D1_z.mp3; sourceTree = "<group>"; };
+		D4A327CEAB78F9DBAB204156243EB899 /* B5_z.mp3 */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = audio.mp3; path = B5_z.mp3; sourceTree = "<group>"; };
+		D56DA91C1B4F115CC7C3831D71213094 /* 2G.wav */ = {isa = PBXFileReference; includeInIndex = 1; path = 2G.wav; sourceTree = "<group>"; };
+		D69AF0B711A25C9C8A6717F0E996DA3C /* harp086.caf */ = {isa = PBXFileReference; includeInIndex = 1; path = harp086.caf; sourceTree = "<group>"; };
+		D741890BEC423D785CAB328B300B37D6 /* guitar071.caf */ = {isa = PBXFileReference; includeInIndex = 1; path = guitar071.caf; sourceTree = "<group>"; };
+		D7935B90FB0C8E0409842B2368942F2C /* 4E.wav */ = {isa = PBXFileReference; includeInIndex = 1; path = 4E.wav; sourceTree = "<group>"; };
+		D8670ADC4610AFC7A935D4A4DD56C3F8 /* B2_z.mp3 */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = audio.mp3; path = B2_z.mp3; sourceTree = "<group>"; };
+		DA830127189D047674C106A8C53F8DF2 /* guitar068.caf */ = {isa = PBXFileReference; includeInIndex = 1; path = guitar068.caf; sourceTree = "<group>"; };
+		DCF2137B478E9105CC874DE6E7C6E788 /* a5m.mp3 */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = audio.mp3; path = a5m.mp3; sourceTree = "<group>"; };
+		DFFDD353A084A95A674D44F290A5F7EA /* marimba054.caf */ = {isa = PBXFileReference; includeInIndex = 1; path = marimba054.caf; sourceTree = "<group>"; };
+		E1237E7E22D9F4C8831E4B96B587BCB0 /* SoundBankPlayer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SoundBankPlayer.m; path = "OpenALKit-iOS/Classes/SoundBankPlayer.m"; sourceTree = "<group>"; };
+		E1D2AEA7DBE284C433C2EB4E8D45999D /* 1E.wav */ = {isa = PBXFileReference; includeInIndex = 1; path = 1E.wav; sourceTree = "<group>"; };
+		E23057CAF5538B1EC95C262EAC7B32EA /* 5B.wav */ = {isa = PBXFileReference; includeInIndex = 1; path = 5B.wav; sourceTree = "<group>"; };
+		E6D06E813D981888D0F2157EA2A37718 /* -1E.wav */ = {isa = PBXFileReference; includeInIndex = 1; path = "-1E.wav"; sourceTree = "<group>"; };
 		E704D7B800A1506B40F179C4D6B06824 /* Pods-OpenALKit-iOS_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-OpenALKit-iOS_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		E81516D0F6A1732661678FA504971718 /* 5F.wav */ = {isa = PBXFileReference; includeInIndex = 1; path = 5F.wav; sourceTree = "<group>"; };
+		E86BA5F5C06026408558D137967B8A13 /* -1B.wav */ = {isa = PBXFileReference; includeInIndex = 1; path = "-1B.wav"; sourceTree = "<group>"; };
+		E8C0C85D6700543458C53374DFA58295 /* OpenALKit-iOS.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = "OpenALKit-iOS.podspec"; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		E9C257B546EAED45F27DED5BA71EAF6D /* 6C.wav */ = {isa = PBXFileReference; includeInIndex = 1; path = 6C.wav; sourceTree = "<group>"; };
+		EAA848C6D679225FA0821053C2AE4846 /* 1F.wav */ = {isa = PBXFileReference; includeInIndex = 1; path = 1F.wav; sourceTree = "<group>"; };
+		EB99632EFED22DB47C7A1E5B75B5C56B /* d4.mp3 */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = audio.mp3; path = d4.mp3; sourceTree = "<group>"; };
 		EBC7C85C2098B25F4085100B90829706 /* Pods-OpenALKit-iOS_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-OpenALKit-iOS_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		EBD4A65008325891C41585D203FAC81E /* 4F.wav */ = {isa = PBXFileReference; includeInIndex = 1; path = 4F.wav; sourceTree = "<group>"; };
+		ECEFEE3215114E22E04A181B129570BB /* marimba095.caf */ = {isa = PBXFileReference; includeInIndex = 1; path = marimba095.caf; sourceTree = "<group>"; };
+		EE403B3440564D23B666F5AC4BDAB1A0 /* guitar040.caf */ = {isa = PBXFileReference; includeInIndex = 1; path = guitar040.caf; sourceTree = "<group>"; };
+		EEC79ECA51531430D3132C803196A96E /* a7m.mp3 */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = audio.mp3; path = a7m.mp3; sourceTree = "<group>"; };
+		F171D3FC95E70C16B429C325FA0A0960 /* 0C.wav */ = {isa = PBXFileReference; includeInIndex = 1; path = 0C.wav; sourceTree = "<group>"; };
+		F197C21F76AB200FB02DF72F49507578 /* 4G.wav */ = {isa = PBXFileReference; includeInIndex = 1; path = 4G.wav; sourceTree = "<group>"; };
 		F2E4C2DFAF35ABA8AC9D89CC80A9C3C0 /* Pods-OpenALKit-iOS_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-OpenALKit-iOS_Tests-Info.plist"; sourceTree = "<group>"; };
+		F508B83785E886E24F8DCE68BA83E682 /* harp054.caf */ = {isa = PBXFileReference; includeInIndex = 1; path = harp054.caf; sourceTree = "<group>"; };
+		F619D3332043393F2CA9124EF470339D /* category.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = category.plist; sourceTree = "<group>"; };
+		F6614717FDE7184AA438BEE745CAAAAE /* guitar059.caf */ = {isa = PBXFileReference; includeInIndex = 1; path = guitar059.caf; sourceTree = "<group>"; };
+		FA444C17DAF5FEA68A23C6D4B48FD0B7 /* marimba065.caf */ = {isa = PBXFileReference; includeInIndex = 1; path = marimba065.caf; sourceTree = "<group>"; };
+		FB6D4295F1D90B41A322D7B94B0DECED /* OpenALKit-iOS.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "OpenALKit-iOS.modulemap"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,17 +367,65 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4A4916E864C32A7E5031D0F08A8AF800 /* Frameworks */ = {
+		FE3B9CB28FC96BD8989791C6C902E97F /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				275ECFAD85F9E87578ADB8485475DFBB /* Foundation.framework in Frameworks */,
+				BB4B8F9EB42AFCB338DD3BC71F0FE433 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		119981C97272EFBCC8A8340B45622266 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				FB6D4295F1D90B41A322D7B94B0DECED /* OpenALKit-iOS.modulemap */,
+				92A7E0EAB74D4E1C79BEA9CA186B6102 /* OpenALKit-iOS.xcconfig */,
+				A727123227BA15177B8936A94D92DD39 /* OpenALKit-iOS-dummy.m */,
+				1077D1B9146417BFEAAA9000637E4FCB /* OpenALKit-iOS-Info.plist */,
+				AB197EC757CEDE20411698784B2F74FD /* OpenALKit-iOS-prefix.pch */,
+				6E30F70933EB4CC3789C3334C9054D07 /* OpenALKit-iOS-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/OpenALKit-iOS";
+			sourceTree = "<group>";
+		};
+		189C12F0B4D234626B99C2698D23F5B7 /* bass */ = {
+			isa = PBXGroup;
+			children = (
+				4C694D0FCAD18DE2703E0B1494E267B4 /* Bass.plist */,
+				B241B283A1299CF45C01240C72214E40 /* bass028.caf */,
+				35484D6CABBF3AA64BE692BB0603C871 /* bass033.caf */,
+				76F25414E837742E14A0C7FD16FF240E /* bass038.caf */,
+				CAE274B8B9629A822F56ADBE6C801D9D /* bass043.caf */,
+				A243065BA3D0FBF41FB55B3B8B556C75 /* bass045.caf */,
+				1ECEFDEC305E8753EDF7246E7A3F4E82 /* bass048.caf */,
+				0D2FFB36B68E8FC1CF3C240559BAD2E0 /* bass052.caf */,
+				452F21D844BAD609E11654DE9DD1A445 /* bass057.caf */,
+				C6AC00B1B54326DC0006205D1D3E318E /* bass062.caf */,
+				9A3F1F4827816C39BC970DD44A040563 /* bass067.caf */,
+			);
+			name = bass;
+			path = bass;
+			sourceTree = "<group>";
+		};
+		19A4E8EEA59FF87A7F93D3A008546D39 /* OpenALKit-iOS */ = {
+			isa = PBXGroup;
+			children = (
+				2FE8F43F7368DF40D49D75E5CBD74687 /* OpenALSupport.c */,
+				808F774218EECAC6D934B0EC4CEA896A /* OpenALSupport.h */,
+				3FC6E39DE294442B80128731BE57B25E /* SoundBankPlayer.h */,
+				E1237E7E22D9F4C8831E4B96B587BCB0 /* SoundBankPlayer.m */,
+				3CD9CC9F7DD6596A0DEB7D1DCD92D306 /* Pod */,
+				FA515C02ADA1E6BCCFB438EA2BA3A13E /* sounds */,
+				119981C97272EFBCC8A8340B45622266 /* Support Files */,
+			);
+			name = "OpenALKit-iOS";
+			path = ../..;
+			sourceTree = "<group>";
+		};
 		2ABDD9BBA74941FD6A2461043961FB1A /* Pods-OpenALKit-iOS_Tests */ = {
 			isa = PBXGroup;
 			children = (
@@ -95,14 +443,44 @@
 			path = "Target Support Files/Pods-OpenALKit-iOS_Tests";
 			sourceTree = "<group>";
 		};
-		59BF58952DF744CD8D606D2FF220024B /* Pod */ = {
+		3CD9CC9F7DD6596A0DEB7D1DCD92D306 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				0BDC2B316062C8C2FB649E190C742910 /* LICENSE */,
-				56E6DDD5F9808BA246261021B5A12D9F /* OpenALKit-iOS.podspec */,
-				953244A6B782EABDB67BC4B943FB723C /* README.md */,
+				02C34F38354D3C6529151B9E6CE5EC24 /* LICENSE */,
+				E8C0C85D6700543458C53374DFA58295 /* OpenALKit-iOS.podspec */,
+				0062085951947165F31C5C1C966DB114 /* README.md */,
 			);
 			name = Pod;
+			sourceTree = "<group>";
+		};
+		4C2D609469298C9E9088D1BEEFA567AA /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				19A4E8EEA59FF87A7F93D3A008546D39 /* OpenALKit-iOS */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		517684CBE35E06DC2EEE3AC9B4E23CD0 /* guitar */ = {
+			isa = PBXGroup;
+			children = (
+				4C60735171F887AED933A9C9D66993E2 /* Guitar.plist */,
+				EE403B3440564D23B666F5AC4BDAB1A0 /* guitar040.caf */,
+				38BA6E8CE74A25285C40F06AF32E4C51 /* guitar045.caf */,
+				561EE148C5FE940ECD3F35646B689A7A /* guitar049.caf */,
+				A4BA8E601F9577BC422A93908A7731A0 /* guitar053.caf */,
+				764EA76ECD0E1561DDAAAB928C93BA85 /* guitar056.caf */,
+				F6614717FDE7184AA438BEE745CAAAAE /* guitar059.caf */,
+				8406E594510DD87A6259D0D1637CCFD2 /* guitar062.caf */,
+				B587225A5E2FF9016C2D6826822E5FCE /* guitar065.caf */,
+				DA830127189D047674C106A8C53F8DF2 /* guitar068.caf */,
+				D741890BEC423D785CAB328B300B37D6 /* guitar071.caf */,
+				B55B259C5710CCB03D068763430AE0ED /* guitar074.caf */,
+				51F9F5F830782595A9BBABB52BC150F8 /* guitar077.caf */,
+				5D1A04E5C323AAA363FCC62C78D13980 /* guitar081.caf */,
+			);
+			name = guitar;
+			path = guitar;
 			sourceTree = "<group>";
 		};
 		7AD6A42F2BD904CE33E493464863C8B8 /* Products */ = {
@@ -114,26 +492,96 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		7F0EE947E86AA4C47E6EC0CA6C83E801 /* Development Pods */ = {
+		8DD1E92484DEDAB82A125DA5964A7A35 /* default */ = {
 			isa = PBXGroup;
 			children = (
-				8E7033DCC00BB7638F1C15EDF9360A02 /* OpenALKit-iOS */,
+				858875521E5D90590D2498D372109BA9 /* -1A.wav */,
+				E86BA5F5C06026408558D137967B8A13 /* -1B.wav */,
+				C7970D69657D913F6FD57E7AAA9684EE /* -1D.wav */,
+				E6D06E813D981888D0F2157EA2A37718 /* -1E.wav */,
+				462981489A39763FDCEC39E28CDD71E3 /* -1F.wav */,
+				86D7040D7765EE47D659F5126FCACB00 /* -1G.wav */,
+				D1BBA95F9DC7B6F8709DFBFDD4C56CE0 /* 0A.wav */,
+				2286F7FEC7BC0A17A690A32ADACD26BC /* 0B.wav */,
+				F171D3FC95E70C16B429C325FA0A0960 /* 0C.wav */,
+				2CAD65EC20F63B77CA931D98F65125E6 /* 0D.wav */,
+				0699B79A4AF67FF21FCBC97777087B23 /* 0E.wav */,
+				85810F735E670690C85A48DB035B4303 /* 0F.wav */,
+				9E65AF8609EA8B8915934FFB2A7BCC98 /* 0G.wav */,
+				9927CA9BFFF52D24DE00EF233F2D03E2 /* 1A.wav */,
+				2CD04F741AF3BD868C726B0C741FF170 /* 1B.wav */,
+				2A75922EDD4597B7FC6807F2E718C30D /* 1C.wav */,
+				3E78E36805165B6C26B2DAA3FF0B11EA /* 1D.wav */,
+				E1D2AEA7DBE284C433C2EB4E8D45999D /* 1E.wav */,
+				EAA848C6D679225FA0821053C2AE4846 /* 1F.wav */,
+				1C277EDAB1F83E09FC2A91CF04F02CF3 /* 1G.wav */,
+				C961EAD16EF6C2BE4756267B022B86DF /* 2A.wav */,
+				76B971976695BF0181F6CC54C1D02C1F /* 2B.wav */,
+				448AB0AC47A97FA5FDA02B748E84B483 /* 2C.wav */,
+				4414871D1FF7FEF82F31662188D54806 /* 2D.wav */,
+				805B117C4715A86647A771AB92CC371B /* 2E.wav */,
+				15D63A51FB79F18F8C30D157EB72DB20 /* 2F.wav */,
+				D56DA91C1B4F115CC7C3831D71213094 /* 2G.wav */,
+				CC08503CD8D9992D73DA48C2C898A787 /* 3A.wav */,
+				BFFD1EDDF224E4C1F4FAE3624C617847 /* 3B.wav */,
+				37CF36226DE72818500FF8EEDC1EDEB1 /* 3C.wav */,
+				0B0180EA363AB844FFF68D085BD916D7 /* 3D.wav */,
+				6D091F73D7E43EECEB6C79AB5698D9C8 /* 3E.wav */,
+				8056CC1201C655E383F7B0EE6558BA8A /* 3F.wav */,
+				BC1D79B706FE167DAB7E3CAEFEE18A0D /* 3G.wav */,
+				D0871E867FBB460F5F93B9335D4493F3 /* 4A.wav */,
+				B4165CC8C5FD30111DB4E67F0A724581 /* 4B.wav */,
+				93201BAC4AAB993B66DACBC7D7B4A27C /* 4C.wav */,
+				B66520125AC62DC9EEEB84CFB8DAE511 /* 4D.wav */,
+				D7935B90FB0C8E0409842B2368942F2C /* 4E.wav */,
+				EBD4A65008325891C41585D203FAC81E /* 4F.wav */,
+				F197C21F76AB200FB02DF72F49507578 /* 4G.wav */,
+				4470EFF1129DF7C02A3474D58B45CA64 /* 5A.wav */,
+				E23057CAF5538B1EC95C262EAC7B32EA /* 5B.wav */,
+				CE80C5408ABB4449EBE6E4FCC38BB82A /* 5C.wav */,
+				80593F0654083CB945B556B819AB8F7C /* 5D.wav */,
+				8A50A76BA124F1D32A19FE820E795CD3 /* 5E.wav */,
+				E81516D0F6A1732661678FA504971718 /* 5F.wav */,
+				0AD98AE607B34EFEF1CE590A15AF9C2F /* 5G.wav */,
+				BB877E073A34DC1A54E2F4A4A0A0A5E0 /* 6A.wav */,
+				67F396CB5BF7B0BD797EC24EF28B94B5 /* 6B.wav */,
+				E9C257B546EAED45F27DED5BA71EAF6D /* 6C.wav */,
+				90568CD43DBA6D659D346F7A67726E52 /* 6D.wav */,
+				8DD435FC087C0A72A041B0385A890045 /* 6E.wav */,
+				CA472CD8B82674E0B9925CC1C1D98396 /* 6F.wav */,
+				4615FF6CB1AD5DF1888DD53673724B91 /* 6G.wav */,
+				D18FBBB676492D75D7360E9A21453788 /* 7C.wav */,
+				A7DD32A7CB203AEDD07E41F07D260CB8 /* Default.plist */,
 			);
-			name = "Development Pods";
+			name = default;
+			path = default;
 			sourceTree = "<group>";
 		};
-		8E7033DCC00BB7638F1C15EDF9360A02 /* OpenALKit-iOS */ = {
+		9567A71B7AC8DD6BF4EF1837FEE6A8ED /* pianoE */ = {
 			isa = PBXGroup;
 			children = (
-				940A347E59600E596E22E91CD525AC7A /* OpenALSupport.c */,
-				8206B926707137762099540D4A9F1117 /* OpenALSupport.h */,
-				B7B30054270B03922AC46F8B16B7172E /* SoundBankPlayer.h */,
-				49EE4B50B127D7DA10A88910DA59648D /* SoundBankPlayer.m */,
-				59BF58952DF744CD8D606D2FF220024B /* Pod */,
-				D6AC9C6E955049276EE2807BE88204F2 /* Support Files */,
+				005F28749AD71251734A4BF2E193710A /* a2m.mp3 */,
+				B84D0B544EB3197B0534A3CF50ABE93F /* a3m.mp3 */,
+				60EA13DC0CDBC114BA771EFCF57E6613 /* a4m.mp3 */,
+				DCF2137B478E9105CC874DE6E7C6E788 /* a5m.mp3 */,
+				EEC79ECA51531430D3132C803196A96E /* a7m.mp3 */,
+				56ADC7232F712D6B9E95DA3C98B2374B /* c7.mp3 */,
+				C493364FCD3F48649D94471526E3321C /* d2.mp3 */,
+				090165EE41FC11FAF9D40D3B165432A5 /* d3.mp3 */,
+				EB99632EFED22DB47C7A1E5B75B5C56B /* d4.mp3 */,
+				1B306B2C038473B0286393DEBC319A28 /* d5.mp3 */,
+				28D86678FC341138D1D11C8564788587 /* d6.mp3 */,
+				AD8D27BF2BFE9F2C52CACFC80AC09586 /* d8m.mp3 */,
+				028FAF5C43440E10298F25F0D2B8319F /* f2m.mp3 */,
+				5095FB34AA9DB06E69BF9F20A152FE06 /* f3m.mp3 */,
+				35F0B99C6C21A391EDD08534E4C3BB8F /* f4m.mp3 */,
+				3CE1DB47D274B5315ACD1AC0DE877455 /* f5m.mp3 */,
+				10BEEB56D8FB49B85929FC6DF078D4F3 /* f6m.mp3 */,
+				B34831071290651FB7E9736B96679885 /* f7m.mp3 */,
+				8F2C6D1F837C3B99BB4BE76B9DFA0E39 /* PianoE.plist */,
 			);
-			name = "OpenALKit-iOS";
-			path = ../..;
+			name = pianoE;
+			path = pianoE;
 			sourceTree = "<group>";
 		};
 		9B055D0CFEA43187E72B03DED11F5662 /* iOS */ = {
@@ -144,11 +592,41 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
+		C5C5BAA1E83363D653833466DA23C178 /* zither */ = {
+			isa = PBXGroup;
+			children = (
+				D3614A6CBE8801A9669F1DCD3B343DEA /* A1_z.mp3 */,
+				02B0CEE506128BAF538AA90C19FCEA77 /* A2_z.mp3 */,
+				973E35227E2173E4235B9193CE22858F /* A3_z.mp3 */,
+				8A2B78B6ECE2F5C1DF52C42387B6460B /* A5_z.mp3 */,
+				125C8A9C2DAE18868987556BDB2D37A0 /* A6_z.mp3 */,
+				C90915053F008ABCCA13E0FEA4431C55 /* B1_z.mp3 */,
+				D8670ADC4610AFC7A935D4A4DD56C3F8 /* B2_z.mp3 */,
+				A0CE5FABD5B40F3CBA85C48AF01969A1 /* B3_z.mp3 */,
+				D4A327CEAB78F9DBAB204156243EB899 /* B5_z.mp3 */,
+				38FE9770F2DAE7FFC1D91AF1341407FD /* B6_z.mp3 */,
+				6ADDB7B053FA535BD629201DEEA48E64 /* C1_z.mp3 */,
+				700C407400DEFEEA5F767C968499C8E0 /* C2_z.mp3 */,
+				705470C6A5AC911249288BB9995DEDDB /* C3_z.mp3 */,
+				1C36DB64B452C9F0E58A640AD5668C3B /* C5_z.mp3 */,
+				CFCEF6271F172693CE8DC25AD4728D7E /* C6_z.mp3 */,
+				D425AA26A7FAE3C5AB4C2C0177125A25 /* D1_z.mp3 */,
+				A28EFE48331A619100AEA185C5F81462 /* D2_z.mp3 */,
+				2AEA4A06C7FEC6551D9F9A02D986503B /* D3_z.mp3 */,
+				B339F6FB4260B08404FF94F9CD131D4E /* D5_z.mp3 */,
+				C49B261564770B681C27E061F287A94B /* D6_z.mp3 */,
+				760C1ADB48524BD290B4ED330A0E718B /* E1_z.mp3 */,
+				8C92123ECD48E202257497873C13D322 /* Zither.plist */,
+			);
+			name = zither;
+			path = zither;
+			sourceTree = "<group>";
+		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				7F0EE947E86AA4C47E6EC0CA6C83E801 /* Development Pods */,
+				4C2D609469298C9E9088D1BEEFA567AA /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
 				7AD6A42F2BD904CE33E493464863C8B8 /* Products */,
 				EE627D0088913437C1454DE659DD689B /* Targets Support Files */,
@@ -163,18 +641,27 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		D6AC9C6E955049276EE2807BE88204F2 /* Support Files */ = {
+		E2A1F01D5062CFCFFAA4510D9A28C19B /* harp */ = {
 			isa = PBXGroup;
 			children = (
-				2E7B77AEF9677BE2DA9124FF0BAEA28D /* OpenALKit-iOS.modulemap */,
-				0F7E648678936B4BFD79D9080B539B82 /* OpenALKit-iOS.xcconfig */,
-				81F79FF994B410F0716E35DF27D087E6 /* OpenALKit-iOS-dummy.m */,
-				A7B0CA13378FB99403F1DAB96CF4D146 /* OpenALKit-iOS-Info.plist */,
-				C8681A96BCB8EDD8468B61D4C4157895 /* OpenALKit-iOS-prefix.pch */,
-				824FC7E30C0981568B6A50EF6317F877 /* OpenALKit-iOS-umbrella.h */,
+				296ECE27EA84A2D8327CC5C1C5C999CF /* Harp.plist */,
+				8B3362E775EFCE842A92BC9A925CEF84 /* harp024.caf */,
+				AD2757990EDA3D019AEFD360FFCDF51A /* harp031.caf */,
+				CE5939E8B73203C613801B107A793433 /* harp038.caf */,
+				AA461D5EC695AD5536349EB4966A19EC /* harp045.caf */,
+				F508B83785E886E24F8DCE68BA83E682 /* harp054.caf */,
+				9A8E798AA50E93AD25EE6E5D3C302E20 /* harp058.caf */,
+				2D45BC722673D13968A86EDEC2EA7A4F /* harp062.caf */,
+				0E21A509A34F7E8ED18BE6B48CA36521 /* harp065.caf */,
+				86FF309FA4CB59814F0CD681F8D68EFE /* harp068.caf */,
+				8EEDFEB2E43EA4165183E6DEA7A256EC /* harp072.caf */,
+				AF314B15D97A959D5196B64DE74CF4F2 /* harp077.caf */,
+				D69AF0B711A25C9C8A6717F0E996DA3C /* harp086.caf */,
+				A5E4D8306BC1A25AC003BE050A10D386 /* harp095.caf */,
+				26D02603E745B7DB4E5E53BFDBF0E860 /* harp099.caf */,
 			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/OpenALKit-iOS";
+			name = harp;
+			path = harp;
 			sourceTree = "<group>";
 		};
 		EE627D0088913437C1454DE659DD689B /* Targets Support Files */ = {
@@ -185,16 +672,51 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
+		F38FF57FE9EFDA4275F74B59D5906D1E /* marimba */ = {
+			isa = PBXGroup;
+			children = (
+				90A5D75E5A818064D104FE1129A80183 /* Marimba.plist */,
+				19AF50347FB0EFE2AF2C8C34A7C764AB /* marimba045.caf */,
+				DFFDD353A084A95A674D44F290A5F7EA /* marimba054.caf */,
+				4A4D42B8D4A89F45B9DC656ECCD1E8DD /* marimba058.caf */,
+				9F639F56FE8AA6192030CD7CFC3C0407 /* marimba062.caf */,
+				FA444C17DAF5FEA68A23C6D4B48FD0B7 /* marimba065.caf */,
+				3182FEC6275480850C26BB5D374850F1 /* marimba068.caf */,
+				B51F88997813DB3759E57BF650A896E4 /* marimba072.caf */,
+				4BC65D6FE1348CD6CB34995AD6616F96 /* marimba077.caf */,
+				B632816423032EE7C4CE112A4BB57D22 /* marimba086.caf */,
+				ECEFEE3215114E22E04A181B129570BB /* marimba095.caf */,
+			);
+			name = marimba;
+			path = marimba;
+			sourceTree = "<group>";
+		};
+		FA515C02ADA1E6BCCFB438EA2BA3A13E /* sounds */ = {
+			isa = PBXGroup;
+			children = (
+				F619D3332043393F2CA9124EF470339D /* category.plist */,
+				189C12F0B4D234626B99C2698D23F5B7 /* bass */,
+				8DD1E92484DEDAB82A125DA5964A7A35 /* default */,
+				517684CBE35E06DC2EEE3AC9B4E23CD0 /* guitar */,
+				E2A1F01D5062CFCFFAA4510D9A28C19B /* harp */,
+				F38FF57FE9EFDA4275F74B59D5906D1E /* marimba */,
+				9567A71B7AC8DD6BF4EF1837FEE6A8ED /* pianoE */,
+				C5C5BAA1E83363D653833466DA23C178 /* zither */,
+			);
+			name = sounds;
+			path = "OpenALKit-iOS/Classes/sounds";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		C1439495C6CBB2758F785D1E4BB9B07E /* Headers */ = {
+		B402B1358FE7E50ABC0B2E3D314E9128 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A0AE1799D1AF550BD41F1BACECC1686A /* OpenALKit-iOS-umbrella.h in Headers */,
-				7620A0AB86828167721EAAC78222453D /* OpenALSupport.h in Headers */,
-				D2EE5BF02AEE4E62E847F522003BBA72 /* SoundBankPlayer.h in Headers */,
+				EFE890F090BA3B5B68F766882CDFDB5D /* OpenALKit-iOS-umbrella.h in Headers */,
+				74728864D308A5414BE2FCBC347D4CAB /* OpenALSupport.h in Headers */,
+				FADF85AA04081254182DD8882F3E5E6D /* SoundBankPlayer.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -209,14 +731,14 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		550E84ACCD8A473F6F27C69847063BE2 /* OpenALKit-iOS */ = {
+		86DAB842AB6783FC212B01242364DC78 /* OpenALKit-iOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A020CD96D39969ED870F0F2064C98144 /* Build configuration list for PBXNativeTarget "OpenALKit-iOS" */;
+			buildConfigurationList = 01E2B43F101DD71AFD2F661A5C34D45D /* Build configuration list for PBXNativeTarget "OpenALKit-iOS" */;
 			buildPhases = (
-				C1439495C6CBB2758F785D1E4BB9B07E /* Headers */,
-				81AEE08CF19561ECF2624A6285C95243 /* Sources */,
-				4A4916E864C32A7E5031D0F08A8AF800 /* Frameworks */,
-				E74A607E4531530280DA5352935B9271 /* Resources */,
+				B402B1358FE7E50ABC0B2E3D314E9128 /* Headers */,
+				7DB58FC6CEAC43BE09980F8A944F7290 /* Sources */,
+				FE3B9CB28FC96BD8989791C6C902E97F /* Frameworks */,
+				880049B620FAF951148E1ACB528B03D1 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -267,7 +789,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				550E84ACCD8A473F6F27C69847063BE2 /* OpenALKit-iOS */,
+				86DAB842AB6783FC212B01242364DC78 /* OpenALKit-iOS */,
 				962C4198C4547EDB420955FDE7A8432F /* Pods-OpenALKit-iOS_Tests */,
 			);
 		};
@@ -281,7 +803,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E74A607E4531530280DA5352935B9271 /* Resources */ = {
+		880049B620FAF951148E1ACB528B03D1 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -299,13 +821,163 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		81AEE08CF19561ECF2624A6285C95243 /* Sources */ = {
+		7DB58FC6CEAC43BE09980F8A944F7290 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				416A8BE324FC03E2FAB39F4792287644 /* OpenALKit-iOS-dummy.m in Sources */,
-				393C4AAA22F16FD00B987AC4F78F18E4 /* OpenALSupport.c in Sources */,
-				46728B4C71C19E360CC590F74C536936 /* SoundBankPlayer.m in Sources */,
+				656A36A588967F0337B0BE1998191CD3 /* -1A.wav in Sources */,
+				13BAFD2DE440B7292FBC66D777EC4886 /* -1B.wav in Sources */,
+				DA18F2B45740DFAC4CEE1D1456B4E154 /* -1D.wav in Sources */,
+				CB49515366927631C3C8AC67A263222A /* -1E.wav in Sources */,
+				6605C61FB1153350AD8917A06AE35685 /* -1F.wav in Sources */,
+				6464B58404C4A2D119C3BF7DEE4CCF46 /* -1G.wav in Sources */,
+				B3DD20D7C138C7DABCBEEC8C599616C6 /* 0A.wav in Sources */,
+				9ED6E9EAB52F30C41706C92427460438 /* 0B.wav in Sources */,
+				91B2891B44FDBFEAF6480E0206D3FA6E /* 0C.wav in Sources */,
+				0C53A76FD635179695FBA15C747878DB /* 0D.wav in Sources */,
+				DAC55685702A797894AC9C2E377463DC /* 0E.wav in Sources */,
+				AEC514A2EDED5DAD7C07B716541C1B85 /* 0F.wav in Sources */,
+				6E3A56095CD546933BF6CD997F43A715 /* 0G.wav in Sources */,
+				81DE294CB45543D9382AEE28C21EF204 /* 1A.wav in Sources */,
+				10D5A9F69D9B3DAAFF10135A20DB854F /* 1B.wav in Sources */,
+				48670C6C0F242A090EE310FAA3CB5E30 /* 1C.wav in Sources */,
+				C334EEB6911E8F2450EA5AF8515631F3 /* 1D.wav in Sources */,
+				B695E6656E54546CE1B7EB51454F19B8 /* 1E.wav in Sources */,
+				DEE0B7ECA64F1665B9BB81591360294F /* 1F.wav in Sources */,
+				28B8347126B0F30DA569EDDF7B5B961A /* 1G.wav in Sources */,
+				D2F4B8D895E7ABE677C3EF104AA1F73D /* 2A.wav in Sources */,
+				184A20BC4461134CD625EC6606DC6261 /* 2B.wav in Sources */,
+				C7DD073D9FC2485D6DFE1F0FEF321C79 /* 2C.wav in Sources */,
+				FA0198D88AA395B31B6E092E15ECCA1D /* 2D.wav in Sources */,
+				9104F7BAE4A0E4C4E3082ADE906B6F61 /* 2E.wav in Sources */,
+				BA2AFB8EDC3D8D408630F6F72981513C /* 2F.wav in Sources */,
+				C118672F8486710FE058D03E8C794409 /* 2G.wav in Sources */,
+				D14AAF0E98D73D3ADA06338432AC7EB7 /* 3A.wav in Sources */,
+				87F84BE107ECF614FC814663D98DFC9E /* 3B.wav in Sources */,
+				985729D17A7A0996FB48C554E282BBF5 /* 3C.wav in Sources */,
+				AE6E6A0F79E1A5E5A742CE573C6CB9EA /* 3D.wav in Sources */,
+				C5A27ACF8046E014BBDF5BF6F3C4F9BA /* 3E.wav in Sources */,
+				1A3694E55AD1C0D196B9091B94773771 /* 3F.wav in Sources */,
+				95C72E5C8C254400D761EEA4C842A6F4 /* 3G.wav in Sources */,
+				980EBF92747834C9CCE63D6EF3D61BE8 /* 4A.wav in Sources */,
+				8AC79E36555D1690241466E83F232BCA /* 4B.wav in Sources */,
+				3A4B6075CAA0FFB74BA7C55D0F272277 /* 4C.wav in Sources */,
+				C090B09E0A86A8B203114D2C2D34BE4A /* 4D.wav in Sources */,
+				8C077061C1AAC2650D6DFA7D7FBA8E9A /* 4E.wav in Sources */,
+				5831B554FDB371F1596E3B2848C8F062 /* 4F.wav in Sources */,
+				D5875A9C64938963E4D3CEE59661EBFB /* 4G.wav in Sources */,
+				2514E195ACA7E250B10EE61075F76C06 /* 5A.wav in Sources */,
+				97F518F7012721D5E946DE510F7B2622 /* 5B.wav in Sources */,
+				5BE60CA01720EAE47EF2BCB8E69BDB6B /* 5C.wav in Sources */,
+				78B55E2ABFEDD5DDAF08BC0C4F37B0C0 /* 5D.wav in Sources */,
+				CD1A58A18B17526515A2025B99ADDCF7 /* 5E.wav in Sources */,
+				27E9A8AFFD023A45638B418379F59858 /* 5F.wav in Sources */,
+				E443BE1302845A85F0E3383C605E7261 /* 5G.wav in Sources */,
+				AB06495148B43D537E174342DA2267DF /* 6A.wav in Sources */,
+				E7378273F25C57B756C860109AEDA14A /* 6B.wav in Sources */,
+				410751ABEE71B5818A0CD6711D1A2F4F /* 6C.wav in Sources */,
+				C78AB1950A7D1256EF139EF71230FED8 /* 6D.wav in Sources */,
+				787D528841C2198C06AFD05B635E4BD7 /* 6E.wav in Sources */,
+				58D3F2E7DA58D4C6E9B77DAB2B6BB30A /* 6F.wav in Sources */,
+				D0A0596B9A96D4D40BF8A6251CDFAED5 /* 6G.wav in Sources */,
+				D9C4C7ED3B366E7EDF461BBEB78A045A /* 7C.wav in Sources */,
+				A4203EF6C44BF2DE9E167EA805F71346 /* A1_z.mp3 in Sources */,
+				8E613BCFCCAD126DE8D1C04ECD6C4762 /* A2_z.mp3 in Sources */,
+				C59C997D90E43D2D0D7608C846C4C495 /* a2m.mp3 in Sources */,
+				603B45490CEBFA15EB694CBF2F4FC502 /* A3_z.mp3 in Sources */,
+				FD5C5B899A8D9780248B6FDAE1EE09D2 /* a3m.mp3 in Sources */,
+				71BED6CDF24D656FA699BA8A130C1471 /* a4m.mp3 in Sources */,
+				8ADED2566EA382BB0021CC0F5C6DF16D /* A5_z.mp3 in Sources */,
+				DAD22A1948140AECCD1C86E622DFDEC7 /* a5m.mp3 in Sources */,
+				E508D59D8C01266A0AFBEEE448FAE3A6 /* A6_z.mp3 in Sources */,
+				4A18A4CEA791CDB28170FAE3A59390BB /* a7m.mp3 in Sources */,
+				D7A7FD64801F84729D53B714E5A7424F /* B1_z.mp3 in Sources */,
+				BF0D4E68A564A894757E6921DEFC3E46 /* B2_z.mp3 in Sources */,
+				DA9322BE086D3EBDACDDC8EB6EC4A493 /* B3_z.mp3 in Sources */,
+				6F0D479C97A916FF180131BABEB2EDF6 /* B5_z.mp3 in Sources */,
+				8383054C307785311990984A4559249F /* B6_z.mp3 in Sources */,
+				253081B2007EFD4A2ABCF7E1A1C5F122 /* Bass.plist in Sources */,
+				CD80BAE9CC1953ACE5EFF0610E9C1D26 /* bass028.caf in Sources */,
+				CE8F61C67E1E2C4C2721ABD6867CA374 /* bass033.caf in Sources */,
+				309040C8833BDB6ADBA559679152A49D /* bass038.caf in Sources */,
+				8C2F648F8358D32FBE9596E235ECEC2E /* bass043.caf in Sources */,
+				C3BC4686571EE8DE401E0D08A62274D0 /* bass045.caf in Sources */,
+				BADC04ADEA70E7C236D53FEBD0B8129A /* bass048.caf in Sources */,
+				A22FD694AB953A35A784F5BFD8F605CD /* bass052.caf in Sources */,
+				E7A6FD0763140C072A8A04F01669B859 /* bass057.caf in Sources */,
+				5857CCCAA5211D1EE19609CFA0E129FD /* bass062.caf in Sources */,
+				31CB14D9E3A8CD75959DEB2F3A5D4B44 /* bass067.caf in Sources */,
+				7BAC4717473121687FFC85F831DA85DC /* C1_z.mp3 in Sources */,
+				AA9C4A0229042A5CF713A431F361A822 /* C2_z.mp3 in Sources */,
+				09632C590B9EFA6A16CDBF1EB6C2EFF0 /* C3_z.mp3 in Sources */,
+				FC412CFCFA2029BBC881F21E0E4ADBC3 /* C5_z.mp3 in Sources */,
+				B214C8529B26C5418790250BB68EBDBE /* C6_z.mp3 in Sources */,
+				11F502F410C593D82762CB64D3B455DF /* c7.mp3 in Sources */,
+				5E1A4A88889B2859F1FC445B2AE091BC /* category.plist in Sources */,
+				3ADB74C154C645D238366FD1FBEAC9D3 /* D1_z.mp3 in Sources */,
+				6F0F20EC6BA43B0F3B14BDFB278A397E /* d2.mp3 in Sources */,
+				5FB1D537D4949291E7B36D94E4516697 /* D2_z.mp3 in Sources */,
+				01B8F1C1778393860D27A798FFA899F5 /* d3.mp3 in Sources */,
+				3FA017883F39972090761B7410B2EAEE /* D3_z.mp3 in Sources */,
+				743393FA80B75B8286BEBE187A73E16E /* d4.mp3 in Sources */,
+				D067B6AB6052C20B8F93573B87605307 /* d5.mp3 in Sources */,
+				FBFF0B6F9638ACC64464593E749C0A4D /* D5_z.mp3 in Sources */,
+				C5721A034E5884E7CF5DE729011DA773 /* d6.mp3 in Sources */,
+				D93E159D118411B832BE647B97DD9DCF /* D6_z.mp3 in Sources */,
+				CD857C0D7D1CA7DDBAA9C85C7895F378 /* d8m.mp3 in Sources */,
+				93F5463F63B22B0693FC8E864A0E15D5 /* Default.plist in Sources */,
+				3A08F5EC5459768EA466CB0E65ED66D6 /* E1_z.mp3 in Sources */,
+				FB3CFF4CA68257B05558EF7BE34BDFF2 /* f2m.mp3 in Sources */,
+				58F35E0C632160EC104DCC48D4D8E14E /* f3m.mp3 in Sources */,
+				C67ACE554F00BA4C5C486632D1CE2FA6 /* f4m.mp3 in Sources */,
+				2D7E0714595ED830BE8629C0C5256D30 /* f5m.mp3 in Sources */,
+				088A3121769962EB62A783E06419A963 /* f6m.mp3 in Sources */,
+				7AE2E8D70059A34FB0655E53E1226AD2 /* f7m.mp3 in Sources */,
+				749777A7CD51F2C08A71346B2B32B032 /* Guitar.plist in Sources */,
+				82DB44229C6908D540F1CBC49BEFC9BA /* guitar040.caf in Sources */,
+				8C3EDE22912D5CD75D79F22577A405AC /* guitar045.caf in Sources */,
+				452A81A77A7157AA68A526B933934A2A /* guitar049.caf in Sources */,
+				794CE1EDC9AD97A69869FB5425C739C6 /* guitar053.caf in Sources */,
+				DCC3988A861AB0C83340A9E1D4028049 /* guitar056.caf in Sources */,
+				67BBBE08C9F5466ED8CC2D08888007BB /* guitar059.caf in Sources */,
+				FA39E94B92A5ED5405308439357422DD /* guitar062.caf in Sources */,
+				B2F7BA122FC318245EC91BC842C6DDDE /* guitar065.caf in Sources */,
+				6EC06092CF1035F970E048994AC47B64 /* guitar068.caf in Sources */,
+				11427106304722F5736D987A748B9839 /* guitar071.caf in Sources */,
+				C610435A15DA4AF0AC6AE480F7DD3D8F /* guitar074.caf in Sources */,
+				5EA69D67EAA0D5B559BBE13F5A504F22 /* guitar077.caf in Sources */,
+				CCF70ECB761E413DE546103928799142 /* guitar081.caf in Sources */,
+				AEA6C844505EBD76A89BF8C6299B53E4 /* Harp.plist in Sources */,
+				A59BDC5C70F43744D0417663215B8373 /* harp024.caf in Sources */,
+				6DE5297D829420ADEE04D165E9F872E3 /* harp031.caf in Sources */,
+				AAA74C886C48C0FA67DDAA763F22D1B3 /* harp038.caf in Sources */,
+				51FB7FB0ABE22AD8B2FE917BF8806834 /* harp045.caf in Sources */,
+				A998D33580602BC1178BC62C2A77CB97 /* harp054.caf in Sources */,
+				C254F67746FA720EA05944D64B258816 /* harp058.caf in Sources */,
+				62FDD791CD2C35757414C479572FA332 /* harp062.caf in Sources */,
+				14AB4750FAB9E385B8407DB27AF321F2 /* harp065.caf in Sources */,
+				8A030E4BBB294948E83711E6BCF9CF92 /* harp068.caf in Sources */,
+				6B3FA50AB7F4EFBD0A56BB0BD2D12029 /* harp072.caf in Sources */,
+				1E04DAAE85099983E2DA3CD3BEF063BE /* harp077.caf in Sources */,
+				45DAC2907DEE0DD5E0EBEF5422EF6BC8 /* harp086.caf in Sources */,
+				A455CA470789E75DC8EA701DAAD348DE /* harp095.caf in Sources */,
+				BE4AEE6A95E7196A571AC070761B4E39 /* harp099.caf in Sources */,
+				86D297D57322A563814E0B30355CA03F /* Marimba.plist in Sources */,
+				E50A4F1D4D4B789C63F0D4230FBDEA39 /* marimba045.caf in Sources */,
+				16A449E3DFE6E13ADC4E421ECCC420BC /* marimba054.caf in Sources */,
+				A11604716BD8D26CFE133B73CF740232 /* marimba058.caf in Sources */,
+				932A50B8420513FD963E42D31F7ABC54 /* marimba062.caf in Sources */,
+				CF38A4B3E432232389F2F41DF9EB3A40 /* marimba065.caf in Sources */,
+				390AD8674A630B247FA458B674BBD02E /* marimba068.caf in Sources */,
+				49B79E2155F6A7EE5CB5985E88B54B3B /* marimba072.caf in Sources */,
+				8C8908AA223EC7F20A3004D6B0AFD2BE /* marimba077.caf in Sources */,
+				CCD0881FB6704DD94A397114AC43E511 /* marimba086.caf in Sources */,
+				7309B30AE2939A0F52CF73122A5456B7 /* marimba095.caf in Sources */,
+				9626E2102BFD2403276F4C9B61CA6378 /* OpenALKit-iOS-dummy.m in Sources */,
+				982B1C8DAFC91084C507D49190A0CDFD /* OpenALSupport.c in Sources */,
+				D849B67A36A0C723D3B3BD4A6BB7C317 /* PianoE.plist in Sources */,
+				A2E07E133CF8FD2AC7DC7E25A24EB836 /* SoundBankPlayer.m in Sources */,
+				A6B6BC50FB69A21F731FAB10A4731F03 /* Zither.plist in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -315,7 +987,7 @@
 		941C856B18CC1AB267449C09B8226560 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "OpenALKit-iOS";
-			target = 550E84ACCD8A473F6F27C69847063BE2 /* OpenALKit-iOS */;
+			target = 86DAB842AB6783FC212B01242364DC78 /* OpenALKit-iOS */;
 			targetProxy = AE9186AFA314D817F97B4E653052BAF2 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -354,39 +1026,9 @@
 			};
 			name = Debug;
 		};
-		3D543890313310952F7F612BB544E09B /* Debug */ = {
+		692D12BE6BF7BB82ABF29C09FAE4C406 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0F7E648678936B4BFD79D9080B539B82 /* OpenALKit-iOS.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/OpenALKit-iOS/OpenALKit-iOS-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/OpenALKit-iOS/OpenALKit-iOS-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/OpenALKit-iOS/OpenALKit-iOS.modulemap";
-				PRODUCT_MODULE_NAME = OpenALKit_iOS;
-				PRODUCT_NAME = OpenALKit_iOS;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		44FC63B45C4C470B7F080B1DEC992BBF /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0F7E648678936B4BFD79D9080B539B82 /* OpenALKit-iOS.xcconfig */;
+			baseConfigurationReference = 92A7E0EAB74D4E1C79BEA9CA186B6102 /* OpenALKit-iOS.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -414,6 +1056,36 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
+		};
+		912E398742CC547CB483356BB54D2F4A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 92A7E0EAB74D4E1C79BEA9CA186B6102 /* OpenALKit-iOS.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/OpenALKit-iOS/OpenALKit-iOS-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/OpenALKit-iOS/OpenALKit-iOS-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/OpenALKit-iOS/OpenALKit-iOS.modulemap";
+				PRODUCT_MODULE_NAME = OpenALKit_iOS;
+				PRODUCT_NAME = OpenALKit_iOS;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
 		};
 		92A0E163BEF6F546A3DAA8537929C774 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -576,20 +1248,20 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		01E2B43F101DD71AFD2F661A5C34D45D /* Build configuration list for PBXNativeTarget "OpenALKit-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				912E398742CC547CB483356BB54D2F4A /* Debug */,
+				692D12BE6BF7BB82ABF29C09FAE4C406 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				AB4D69770D8ACE3A05E80BB3502666F6 /* Debug */,
 				F232B5ECA11A71BFA199A229B323F454 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		A020CD96D39969ED870F0F2064C98144 /* Build configuration list for PBXNativeTarget "OpenALKit-iOS" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				3D543890313310952F7F612BB544E09B /* Debug */,
-				44FC63B45C4C470B7F080B1DEC992BBF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

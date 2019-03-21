@@ -7,14 +7,15 @@
 
 ## Example
 
-To run the example project, clone the repo, and run `pod install` from the Example directory first.
+没有例子
 
-## Requirements
+## 介绍
 
-## Installation
+在iOS里使用OpenAL播放声音的一种方式，如果你觉得AVAudioPlayer和SystemSound都不好用，辣么OpenAL可能是你的最佳选择。
 
-OpenALKit-iOS is available through [CocoaPods](https://cocoapods.org). To install
-it, simply add the following line to your Podfile:
+## 安装
+
+以下是一个 Podfile 的例子
 
 ```ruby
 source  'https://github.com/CocoaPods/Specs.git'
@@ -22,6 +23,27 @@ source  'https://github.com/yunyyyun/OpenALKit-iOS-Specs.git'
 ...
 pod 'OpenALKit-iOS'
 ```
+
+##使用
+
+使用步骤：
+
+- 添加将要播放的音源（mp3格式，其他格式也行，不过需要改代码）
+- 你也可以修改宏（不过这会修改我的源码），设置音源个数（iOS 支持的最大音源数为 32）,添加数组索引：
+
+```
+#define MAX_BUFFER_COUNT        4. //OpenALPlayer.m (11)
+gSourceFile = [[NSArray alloc] initWithObjects:
+                   @"flyup",@"hit",@"gg",@"start",nil];  //OpenALPlayer.m (129)
+```
+
+- 播放：
+
+```
+[[OpenALPlayer shared] doPlayWithTag:tag];
+```
+
+demo例子简陋，更多声效设置可见OpenALPlayer.m，谢谢！
 
 ## Author
 
